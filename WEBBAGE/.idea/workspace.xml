@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35c88eb-0b19-4bba-92c8-f30e9a432fca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOME/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HOME/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOME/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HOME/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Foto/Foto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Foto/Script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Foto/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Home/Imges/G1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Home/Imges/G2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Home/Imges/G3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Home/Imges/Gurken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Home/Imges/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Home/Script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Home/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Konzept/Script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Konzept/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Konzept/image/apfel-apple-brille-616835.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Konzept/image/ast-baume-boot-772429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Konzept/image/container-diat-einmachglas-279035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Konzept/image/essen-frisch-frucht-1656664.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Konzept/konzept.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Video/Script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Video/Video_Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/Video/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/.idea/untitled3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/Script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/Video/Script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/Video/Video_Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/Video/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/cornichons-essen-gemuse-8694.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOME/s3.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,36 +54,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HOME/Video/video.html">
+        <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Foto/Foto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
               <folding>
-                <element signature="n#style#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#6;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#div#3;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOME/Video/Video_Style.css">
+        <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Foto/Style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOME/Video/Script.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOME/index1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="758">
+              <caret line="234" column="5" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -58,17 +91,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>content</find>
       <find>btn</find>
       <find>box</find>
       <find>showcase</find>
       <find>main</find>
+      <find>section-c</find>
+      <find>content-wrap</find>
+      <find>content</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,15 +116,26 @@
         <option value="$PROJECT_DIR$/HOME/video.html" />
         <option value="$PROJECT_DIR$/HOME/Video.css" />
         <option value="$PROJECT_DIR$/HOME/Video_Style.css" />
-        <option value="$PROJECT_DIR$/HOME/Style.css" />
         <option value="$PROJECT_DIR$/HOME/Video/Video_Style.css" />
         <option value="$PROJECT_DIR$/HOME/Video/video.html" />
         <option value="$PROJECT_DIR$/HOME/index1.html" />
+        <option value="$PROJECT_DIR$/HOME/Script.js" />
+        <option value="$PROJECT_DIR$/HOME/Konzept/Script.js" />
+        <option value="$PROJECT_DIR$/HOME/Konzept/konzept.html" />
+        <option value="$PROJECT_DIR$/HOME/Style.css" />
+        <option value="$PROJECT_DIR$/HOME/Konzept/Style.css" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/Home/Style.css" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/Home/index.html" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/Video/Script.js" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/Foto/Script.js" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/Foto/Style.css" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/Foto/Foto.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="52" />
     <option name="width" value="1440" />
     <option name="height" value="845" />
   </component>
@@ -98,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,18 +155,13 @@
             <path>
               <item name="WEBBAGE" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEBBAGE" type="462c0819:PsiDirectoryNode" />
-              <item name="HOME" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEBBAGE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEBBAGE" type="462c0819:PsiDirectoryNode" />
-              <item name="HOME" type="462c0819:PsiDirectoryNode" />
-              <item name="Video" type="462c0819:PsiDirectoryNode" />
+              <item name="Spreewaldgurken" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,14 +196,15 @@
       <updated>1545331162991</updated>
       <workItem from="1545331164347" duration="4612000" />
       <workItem from="1545336155064" duration="235000" />
+      <workItem from="1545403261260" duration="11805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4847000" />
+    <option name="totallyTimeSpent" value="16652000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="845" extended-state="0" />
+    <frame x="2" y="52" width="1440" height="845" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -191,36 +233,157 @@
     <entry file="file://$PROJECT_DIR$/HOME/Video.css" />
     <entry file="file://$PROJECT_DIR$/HOME/video.html" />
     <entry file="file://$PROJECT_DIR$/HOME/Video_Style.css" />
-    <entry file="file://$PROJECT_DIR$/HOME/Style.css">
+    <entry file="file://$PROJECT_DIR$/HOME/logo1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOME/Script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="354" lean-forward="true" selection-start-line="281" selection-end-line="354" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOME/Video/Video_Style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="-1950">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOME/Video/Script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1168951581/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOME/index1.html">
+    <entry file="file://$PROJECT_DIR$/HOME/Konzept/Script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOME/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="299" column="5" lean-forward="true" selection-start-line="296" selection-start-column="3" selection-end-line="299" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOME/Konzept/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4135">
+          <caret line="281" column="24" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOME/Konzept/konzept.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="n#style#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOME/Video/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOME/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="36" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOME/cornichons-essen-gemuse-8694.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Home/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Video/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="79" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Video/Script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Video/Video_Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-end-line="229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Home/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Foto/Script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Foto/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="234" column="5" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/Foto/Foto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#6;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#3;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#3;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
