@@ -138,7 +138,7 @@ Navigation bar
     padding: 10px;
 }
 .Wrapper1 > div{
-    background-color: aqua;
+    background-color: rgba(191, 112, 47, 0.9);
     padding: 1em;
 }
 .Wrapper1 > div:nth-child(odd){
