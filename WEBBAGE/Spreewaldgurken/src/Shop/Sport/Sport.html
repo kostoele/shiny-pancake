@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>SpreewaldgurckenGalrie</title>
@@ -7,73 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href = "Style.css" rel= "stylesheet" type= "text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="Script.js"></script>
 </head>
-<body>
+<body onload="displaySport()">
 
-<!--navagation-->
-<div class="topnav" id="myTopnav">
-    <a href="#" class="active">Home</a>
-    <a href="#">Contact</a>
+<nav class="topnav" id="myTopnav">
+    <a href="../../Home/index.html" class="active">Home</a>
+    <a href="../../Contact%20us%20/Contact.html">Contact us</a>
     <a href="#">About us</a>
-    <a href="#">Konzept</a>
+    <a href="../../Konzept/konzept.html">Konzept</a>
     <div class="dropdown">
-        <button class="dropbtn">Shop
+        <button class="dropbtn"> <a href="../Home/Shop.html" id="shopee"> Shop </a>
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
             <a href="#">Special offers</a>
-            <a href="#">Daytrip</a>
-            <a href="#">Holliday</a>
-            <a href="#">Sport</a>
+            <a href="../Dailytrip/Dailytrip.html">Daytrip</a>
+            <a href="../Hollydays/Hollydays.html">Holliday</a>
+            <a href="../Sport/Sport.html">Sport</a>
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">About the region
+        <button class="dropbtn"> About the region
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="#">fotos</a>
-            <a href="video.html">video</a>
+            <a href="../../Foto/Foto.html">fotos</a>
+            <a href="../../Video/video.html">video</a>
             <a href="#">wallpaper</a>
         </div>
     </div>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-
+</nav>
 
 
 <!-- Section A -->
-<section a class="galarie">
-<div class="row">
-    <div class="column">
-        <img src="images/11.png" style="width:100%">
-        <img src="images/1.jpg" style="width:100%">
-        <img src="images/22.png" style="width:100%">
 
+<div id='show'></div><br>
+<input type="button" onclick="previous()" value="<<" />
+<input type="button" onclick="next()" value=">>" />
 
-    </div>
-    <div class="column">
-        <img src="images/33.png" style="width:100%">
-        <img src="images/2.jpg" style="width:100%">
-        <img src="images/3.jpg" style="width:100%">
-
-    </div>
-    <div class="column">
-        <img src="images/4.jpeg" style="width:100%">
-        <img src="images/55.png" style="width:100%">
-        <img src="images/5.jpg" style="width:100%">
-    </div>
-    <div class="column">
-        <img src="images/33.png" style="width:100%">
-        <img src="images/6.jpg" style="width:100%">
-        <img src="images/7.jpg" style="width:100%">
-
-    </div>
-</div>
-</section>
+<! -- end Section A -->
 
 
 <!-- Section B -->
