@@ -67,7 +67,7 @@ Navigation bar
     margin-top: 3px;
 }
 #shopee{
-    margin-top: -15px;
+    margin-top: -12px;
 }
 
 .dropdown-content {
@@ -604,9 +604,25 @@ input[type=submit]:hover {
 
     }
 
+
+}
+
+table,th,td {
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 5px;
 }
 
 
+#Triptable{
+    background-position: center;
+
+    position: center;
+    text-align: center;
+    margin-left: 20px;
+}
 
 
 

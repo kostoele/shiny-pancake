@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-    <meta charset="UTF-8">
+
     <title>SpreewaldgurckenGalrie</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href = "Style.css" rel= "stylesheet" type= "text/css" media="all">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="XMLReader.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href = "../../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="../../../js/Script.js"></script>
+
 </head>
-<body>
+<body onload="displayHoliday()">
 
 <!--navagation-->
 <div class="topnav" id="myTopnav">
@@ -45,12 +46,15 @@
 
 
 <!-- Section A -->
-<div id="xmlDataContainer"></div>
+<main class="table" id="holidays">
+
+    <table id="holiday"></table>
+</main>
 
 
 
 <!-- Section B -->
-<main id="main">
+<div id="main">
     <section id="section-d" class="grid">
         <div class="box">
             <h2 class="content-title">Contact Us</h2>
@@ -63,7 +67,7 @@
             <p>You are on holiday in the Spreewald for the first time and do not know what you can do in your spare time? The tips below will help you plan your trip to the Spreewald better. Because in addition to paddling, cycling and the popular boat trips, there are many more recreational opportunities and destinations to discover.</p>
         </div>
     </section>
-</main>
+</div>
 
 <!-- Footer -->
 <footer id="main-footer" class="grid">

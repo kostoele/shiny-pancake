@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href = "../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <script src="../../js/Script.js"></script>
+  <!--  <script src="../../js/Script.js"></script> -->
+    <script src="Script.js"></script>
 </head>
-<body>
+<body onload="displayINFO()">
 
 <!--navagation-->
 <nav class="topnav" id="myTopnav">
-    <a href="../Home/index.html" class="active">Home</a>
-    <a href="../Contact%20us%20/Contact.html">Contact us</a>
-    <a href="#">About us</a>
-    <a href="../Konzept/konzept.html">Konzept</a>
+    <a href="index.html" class="active">Home</a>
+
     <div class="dropdown">
-        <button class="dropbtn"> <a href="../Shop/Home/Shop.html" id="shopee"> Shop </a>
+        <button class="dropbtn"> <a href="../Shop/Home/Shop.html" id="shopee"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -37,9 +36,10 @@
             <a href="#">wallpaper</a>
         </div>
     </div>
+    <a href="../Konzept/konzept.html">About us</a>
+    <a href="../Contact%20us%20/Contact.html">Contact us</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </nav>
-
 
 
 
@@ -47,8 +47,8 @@
 
 <h3>Contact Form</h3>
 
-<div class="container">
-    <form action="action">
+<header class="container">
+    <form action="#">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -59,10 +59,20 @@
 
         <input type="submit" value="Submit">
     </form>
-</div>
-
+</header>
 
 <!-- Section B -->
+
+
+<section id="section-c" class="grid">
+    <div class="content-wrap">
+        <h2 class="content-title"> wir freuen uns auf ihre Kontakt</h2>
+        <div id='show'></div>
+        <!--<p> Swap the noise of the city for the rich sounds of nature. Come to the holiday in the Spreewald. In just a few hours, the best conditions for a journey to yourself. Discover your inner balance in the midst of nature. A Spreewald vacation has many faces. Whether active by bike or directly with the paddle boat on the classic waterways of the region. Time will come to life in the Spreewald. Do you keep moving on holiday? The region offers relaxation in wellness and SPA in comfortable hotels, not only in the spontaneous break and short break ...</p> -->
+    </div>
+</section>
+
+<!-- Section C -->
 <main id="main">
     <section id="section-d" class="grid">
         <div class="box">
@@ -77,6 +87,8 @@
         </div>
     </section>
 </main>
+
+
 
 <!-- Footer -->
 <footer id="main-footer" class="grid">
