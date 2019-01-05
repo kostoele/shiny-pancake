@@ -607,26 +607,60 @@ input[type=submit]:hover {
 
 }
 
-table,th,td {
-    border : 1px solid black;
-    border-collapse: collapse;
-}
 th,td {
-    padding: 5px;
+    border : 0.1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 16px;
+
 }
 
 
-#Triptable{
-    background-position: center;
 
+ /*#Triptable , .table{
+    background-position: center;
+    width: 100%;
     position: center;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 20px; } */
+
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+    margin: 0 0 1em;
 }
 
 
 
 
+tr:nth-child(even){background-color: darkseagreen}
 
 
-
+#showcase3 .bg-image {
+    position: absolute;
+    background: #333
+    url("../img/offer/bauernhof-blauem-hintergrund-danksagung-1328892.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
+}
+#showcase2 .bg-image {
+    position: absolute;
+    background: #333
+    url("../img/offer/appetizer-cremig-essen-1277483.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.6;
+}
