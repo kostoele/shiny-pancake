@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35c88eb-0b19-4bba-92c8-f30e9a432fca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spreewaldgurken/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/css/StyleShop.css" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/css/StyleShop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/img/images/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/img/images/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/img/images/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/AboutUs/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/AboutUs/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Contact us /Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Contact us /Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Foto/Foto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Foto/Foto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Dailytrip/Dailytrip.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Dailytrip/Dailytrip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Hollydays/Hollydays.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Hollydays/Hollydays.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Home/Shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Home/Shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Sport/Sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Sport/Sport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Video/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Video/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Foto/Foto.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="426">
-              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+              <caret line="65" column="69" lean-forward="true" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -99,17 +85,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="908">
-              <caret line="97" column="56" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
+            <state relative-caret-position="61">
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/css/Style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="645" column="73" selection-start-line="645" selection-start-column="73" selection-end-line="645" selection-end-column="73" />
+            <state relative-caret-position="496">
+              <caret line="651" column="22" lean-forward="true" selection-start-line="651" selection-start-column="22" selection-end-line="651" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -200,9 +186,9 @@
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/Home/index.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/Video/video.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/css/StyleShop.css" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/src/Foto/Foto.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/css/Style.css" />
-        <option value="$PROJECT_DIR$/Spreewaldgurken/src/Foto/Foto.html" />
       </list>
     </option>
   </component>
@@ -321,12 +307,12 @@
       <workItem from="1546617539627" duration="2985000" />
       <workItem from="1546632816313" duration="682000" />
       <workItem from="1546699640476" duration="3364000" />
-      <workItem from="1546703679258" duration="6497000" />
+      <workItem from="1546703679258" duration="7055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67615000" />
+    <option name="totallyTimeSpent" value="68173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="845" extended-state="0" />
@@ -487,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Sport/Sport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268">
-          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Hollydays/Hollydays.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-268">
@@ -515,27 +494,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/css/Style.css">
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Foto/Foto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="645" column="73" selection-start-line="645" selection-start-column="73" selection-end-line="645" selection-end-column="73" />
+        <state relative-caret-position="426">
+          <caret line="65" column="69" lean-forward="true" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Sport/Sport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="97" column="56" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
+        <state relative-caret-position="61">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Foto/Foto.html">
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/css/Style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="496">
+          <caret line="651" column="22" lean-forward="true" selection-start-line="651" selection-start-column="22" selection-end-line="651" selection-end-column="22" />
         </state>
       </provider>
     </entry>
