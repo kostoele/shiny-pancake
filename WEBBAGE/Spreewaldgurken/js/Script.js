@@ -45,7 +45,7 @@ function previous()
 
 
 
-function myFunction() {
+function myFunctionnav() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
