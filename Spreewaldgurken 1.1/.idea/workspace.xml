@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35c88eb-0b19-4bba-92c8-f30e9a432fca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Description/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Description/Description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/AboutUs/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/AboutUs/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Contact us /Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Contact us /Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Dailytrip/Dailytrip.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Dailytrip/Dailytrip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Hollydays/Hollydays.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Hollydays/Hollydays.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Home/Shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Home/Shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Sport/Sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Sport/Sport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEBBAGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WEBBAGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEBBAGE/Spreewaldgurken/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WEBBAGE/Spreewaldgurken/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEBBAGE/Spreewaldgurken/css/StyleShop.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WEBBAGE/Spreewaldgurken/css/StyleShop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WEBBAGE/Spreewaldgurken/src/Shop/Dailytrip/Dailytrip.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WEBBAGE/Spreewaldgurken/src/Shop/Dailytrip/Dailytrip.html" afterDir="false" />
-    </list>
+    <list default="true" id="f35c88eb-0b19-4bba-92c8-f30e9a432fca" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -239,22 +220,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Spreewaldgurken 1.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spreewaldgurken 1.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spreewaldgurken 1.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spreewaldgurken 1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Spreewaldgurken" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,12 +288,12 @@
       <workItem from="1546703679258" duration="7055000" />
       <workItem from="1546811525307" duration="66000" />
       <workItem from="1546811606566" duration="669000" />
-      <workItem from="1546812801327" duration="391000" />
+      <workItem from="1546812801327" duration="484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69299000" />
+    <option name="totallyTimeSpent" value="69392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="845" extended-state="0" />
