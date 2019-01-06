@@ -732,7 +732,10 @@ tr:nth-child(even){background-color: darkseagreen}
 
         grid-auto-rows: minmax(100px, auto);
 
+
     }
+
+
 
 }
 
@@ -747,4 +750,39 @@ tr:nth-child(even){background-color: darkseagreen}
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-gap: 2em;
+}
+
+
+
+
+.socicons-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 1em;
+
+}
+.socicons-list li {
+    margin: 20px 10px;
+}
+.socicons-list li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #f1f1f1;
+    transition: all ease-in-out 150ms;
+}
+.socicons-list li a:hover {
+    text-shadow: 0 5px 10px #212121;
+}
+.socicons-list li:nth-child(1) a {
+    background-color: #3e5b98;
+}
+.socicons-list li:nth-child(2) a {
+    background-color: #212121;
+}
+.socicons-list li:nth-child(3) a {
+    background-color: #4da7de;
 }
