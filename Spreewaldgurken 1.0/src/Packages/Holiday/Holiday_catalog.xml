@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+
+
+    <Holldays>
+
+        <name> just you and i </name>
+        <duration> 3 days</duration>
+        <persons> 2</persons>
+        <kids> no</kids>
+        <hoteltype> 4 stars </hoteltype>
+        <nights> 2 </nights>
+        <service> Internet, 2 free bus ticktes </service>
+        <location> Cottbus</location>
+        <price> 150 Euros</price>
+
+    </Holldays>
+
+    <Holldays>
+
+        <name> just im summer </name>
+        <duration> 3 days</duration>
+        <persons> 2</persons>
+        <kids> yes </kids>
+        <hoteltype> 4 stars </hoteltype>
+        <nights> 2 </nights>
+        <service> Internet, 2 free bus ticktes </service>
+        <location> Cottbus</location>
+        <price> 200 Euros</price>
+
+    </Holldays>
+
+
+    <Holldays>
+
+        <name> just im winter </name>
+        <duration> 3 days</duration>
+        <persons> 2</persons>
+        <kids> 1 </kids>
+        <hoteltype> 4 stars </hoteltype>
+        <nights> 2 </nights>
+        <service> Internet, 2 free bus ticktes </service>
+        <location> Cottbus</location>
+        <price> 170 Euros</price>
+
+    </Holldays>
+
+    <Holldays>
+
+        <name> just for the Night </name>
+        <duration> 3 days</duration>
+        <persons> 2</persons>
+        <kids> 1 </kids>
+        <hoteltype> 4 stars </hoteltype>
+        <nights> 1 </nights>
+        <service> Internet and Breakfast </service>
+        <location> Cottbus</location>
+        <price> 50 Euros</price>
+
+    </Holldays>
+
+
+</CATALOG>

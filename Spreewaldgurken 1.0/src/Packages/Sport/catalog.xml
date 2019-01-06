@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+
+	<SPORT>
+		<TITLE> Football </TITLE>
+		<LOCATION> Cottbus </LOCATION>
+		<PRICE> 5 Euro </PRICE>
+		<DURATION> 2 Hours</DURATION>
+		<DAYS>Mon-Sat</DAYS>
+        <TIME>800hrs-1600hrs</TIME>
+
+	</SPORT>
+	<SPORT>
+        <TITLE> Paddling </TITLE>
+		<LOCATION> Lubben </LOCATION>
+		<PRICE>20 Euro </PRICE>
+		<DURATION> 4 Hours</DURATION>
+		<DAYS>Mon-Sat</DAYS>
+        <TIME>800hrs-1600hrs</TIME>
+	</SPORT>
+	<SPORT>
+        <TITLE> Cycling </TITLE>
+		<LOCATION> Lubben </LOCATION>
+		<PRICE>30 Euro </PRICE>
+		<DURATION> 2 Hours</DURATION>
+		<DAYS>Mon-Sat</DAYS>
+        <TIME>800hrs-1600hrs</TIME>
+	</SPORT>
+	<SPORT>
+		<TITLE> Swimming </TITLE>
+		<LOCATION> Cottbus </LOCATION>
+		<PRICE>20 Euro </PRICE>
+		<DURATION> 2 Hours</DURATION>
+		<DAYS>Mon-Sat</DAYS>
+        <TIME>800hrs-1600hrs</TIME>
+	</SPORT>
+</CATALOG>
