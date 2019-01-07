@@ -185,13 +185,13 @@ p {
 }
 
 #logo{
-    /*margin-top: 40px;*/
     width: 120px;
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
 }
+
 #showcase .bg-image {
     position: absolute;
     background: #333
@@ -267,11 +267,6 @@ p {
     background: #3a5227;
 }
 /* Footer */
-.foot-grid {
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 6em;
-}
 
 #main-footer {
     padding: 2em;
@@ -325,54 +320,11 @@ p {
 
 
 
-/*.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    display: grid;
-
-}*/
-
 #shopee{
     margin-top: -12px;
 }
 
-#sozial1:hover {
-    opacity: 0.7;
-}
-#sozial2:hover {
-    opacity: 0.7;
-}
-#sozial3:hover {
-    opacity: 0.7;
-}
-#sozial4:hover {
-    opacity: 0.7;
-}
 
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-}
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
 
 
 
@@ -590,7 +542,7 @@ input[type=submit]:hover {
 }
 
 
-/************************                ****************/
+/************************   Packeges             ****************/
 
 
 
@@ -615,7 +567,7 @@ input[type=submit]:hover {
 }
 
 
-/************************                ****************/
+/************************         Packeges       ****************/
 
 @media screen and (max-width: 750px){
     .Wrapper1 {
