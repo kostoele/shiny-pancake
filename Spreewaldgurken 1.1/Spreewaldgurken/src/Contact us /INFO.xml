@@ -2,14 +2,14 @@
 <CATALOG>
     
     
-   <INFO>
-     <uri>tel:+491-111-555-1212</uri>
-    <country>deutschland  Brandenburg </country>
+   <info>
+       <country> Deutschland Brandenburg </country>
+       <uri> tel:+491-111-555-1212 </uri>
     <code> 03046 Cottbus </code>
     <street> Karl-liebkenchtStr 102 </street>
     <email>info@spreewahldgurcken.com </email>
     <COMPANY>SpreeWaldGürcken GmbH</COMPANY>
-    </INFO>
+    </info>
         
 	
 </CATALOG>

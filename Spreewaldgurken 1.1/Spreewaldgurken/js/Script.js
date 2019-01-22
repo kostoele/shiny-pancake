@@ -141,5 +141,3 @@ function myFunctionHoliday(xml) {
 
 
 
-
-
