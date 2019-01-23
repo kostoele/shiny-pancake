@@ -6,47 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href = "../../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="../../../js/Script.js"></script>
 
 </head>
-<body onload="displaySport()">
+<body onload="displaySport() ; accesskey()">
 
 <nav class="topnav" id="myTopnav">
-    <a href="../../Home/index.html" class="active">Home</a>
-    <div class="dropdown">
-        <div class="dropbtn"> <a href="../Home/Shop.html" id="shopee"> Packages </a>
+    <div tabindex="0">  <a href="../../Home/index.html" class="active" id="home">Home</a></div>
+    <div class="dropdown" tabindex="0">
+        <div class="dropbtn"> <a href="../Home/Shop.html" id="Packages"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../Special%20offers/SpecialOffers.html">Special offers</a>
-            <a href="../Dailytrip/Dailytrip.html">Daytrip</a>
-            <a href="../Hollydays/Hollydays.html">Holliday</a>
-            <a href="../Sport/Sport.html">Sport</a>
+            <a href="../Special%20offers/SpecialOffers.html" id="Special" >Special offers</a>
+            <a href="../Dailytrip/Dailytrip.html" id="Daytrip" >Daytrip</a>
+            <a href="../Hollydays/Hollydays.html" id="Holliday">Holliday </a>
+            <a href="../Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" tabindex="0">
         <div class="dropbtn"> <a href="#" > About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../../About%20the%20region/Description/Description.html">Description </a>
-            <a href="../../About%20the%20region/Foto/Foto.html">fotos</a>
-            <a href="../../About%20the%20region/Video/video.html">video</a>
-            <a href="../../About%20the%20region/wallpaper/wallpaper.html">wallpaper</a>
+            <a href="../../About%20the%20region/Description/Description.html" id="Description">Description </a>
+            <a href="../../About%20the%20region/Foto/Foto.html" id="fotos">fotos</a>
+            <a href="../../About%20the%20region/Video/video.html" id="video">video</a>
+            <a href="../../About%20the%20region/wallpaper/wallpaper.html" id="wallpaper">wallpaper</a>
         </div>
     </div>
-    <a href="../../AboutUs/AboutUs.html">About us</a>
-    <a href="../../Contact%20us%20/Contact.html">Contact us</a>
+    <div tabindex="0"> <a href="../../AboutUs/AboutUs.html" id="About">About us</a></div>
+    <div tabindex="0"> <a href="../../Contact%20us%20/Contact.html" id="Contact">Contact us</a></div>
 
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 </nav>
 
 
 
-<header>
+<header tabindex="0">
 
     <ul class="breadcrumb">
-        <li><a href="../../Home/index.html">Home</a></li>
-        <li><a href="../Home/Shop.html">Packages</a></li>
+        <li tabindex="0"><a href="../../Home/index.html">Home</a></li>
+        <li tabindex="0"><a href="../Home/Shop.html">Packages</a></li>
         <li>Sport</li>
     </ul>
     <div class="content-wrap">
@@ -56,7 +57,7 @@
 </header>
 
 
-<main id="main">
+<main id="main" tabindex="0">
 <!-- Section A -->
 
 <div id='show'></div><br>
@@ -68,7 +69,7 @@
 
 <!-- Section B -->
 <div >
-    <section id="section-d" class="grid">
+    <section id="section-d" class="grid" tabindex="0">
         <div class="box">
             <h2 class="content-title">Contact Us</h2>
             <p>preeWaldGürcken GmbH<br>Karl-liebkenchtStr 102<br>Germany<br>03046 Cottbus<br>
@@ -90,17 +91,17 @@
 
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
-        <li>
-            <a href='#' target='_blank'><span class="socicon-facebook"></span></a>
+        <li tabindex="0">
+            <a href='#' target='_blank' ><span class="socicon-facebook"></span></a>
         </li>
-        <li>
-            <a href="../../Shop/Home/Shop.html" > Packages </a>
+        <li tabindex="0">
+            <a href="../../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
         </li>
-        <li>
+        <li tabindex="0">
             <a href='#' target='_blank'><span class="socicon-instagram"></span></a>
         </li>
     </ul>
 </footer>
-<script src="../../../js/Script.js"></script>
+
 </body>
 </html>

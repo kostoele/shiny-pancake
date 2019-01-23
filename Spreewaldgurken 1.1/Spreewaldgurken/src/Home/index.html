@@ -8,42 +8,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 </head>
-<body>
+<body onload="accesskey()">
 
 <nav class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Home</a>
+   <div tabindex="0"> <a href="index.html" class="active" id="home">Home</a> </div>
 
-    <div class="dropdown">
-         <div class="dropbtn"> <a href="../Shop/Home/Shop.html" id="shopee"> Packages </a>
+    <div class="dropdown" tabindex="0">
+         <div class="dropbtn"> <a href="../Shop/Home/Shop.html" id="Packages"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../Shop/Special%20offers/SpecialOffers.html">Special offers</a>
-            <a href="../Shop/Dailytrip/Dailytrip.html">Daytrip</a>
-            <a href="../Shop/Hollydays/Hollydays.html">Holliday</a>
-            <a href="../Shop/Sport/Sport.html">Sport</a>
+            <a href="../Shop/Special%20offers/SpecialOffers.html" id="Special">Special offers</a>
+            <a href="../Shop/Dailytrip/Dailytrip.html" id="Daytrip">Daytrip</a>
+            <a href="../Shop/Hollydays/Hollydays.html" id="Holliday">Holliday</a>
+            <a href="../Shop/Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" tabindex="0">
         <div class="dropbtn"> <a href="#" > About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../About%20the%20region/Description/Description.html">Description </a>
-            <a href="../About%20the%20region/Foto/Foto.html">fotos</a>
-            <a href="../About%20the%20region/Video/video.html">video</a>
-            <a href="../About%20the%20region/wallpaper/wallpaper.html">wallpaper</a>
+          <a href="../About%20the%20region/Description/Description.html" id="Description"> Description </a>
+            <a href="../About%20the%20region/Foto/Foto.html" id="fotos">fotos</a>
+            <a href="../About%20the%20region/Video/video.html" id="video">video</a>
+            <a href="../About%20the%20region/wallpaper/wallpaper.html" id="wallpaper">wallpaper</a>
         </div>
     </div>
-    <a href="../AboutUs/AboutUs.html">About us</a>
-    <a href="../Contact%20us%20/Contact.html">Contact us</a>
+    <div tabindex="0"> <a href="../AboutUs/AboutUs.html" id="About"> About us</a></div>
+    <div tabindex="0"> <a  href="../Contact%20us%20/Contact.html" id="Contact">Contact us</a></div>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 
 </nav>
 
 <!-- hier sind wir mit der Nivagation fertig! -->
 
-<header id="showcase" class="grid">
+<header id="showcase" class="grid" tabindex="0" >
 
     <div class="bg-image"> </div>
     <div class="content-wrap">
@@ -51,7 +51,7 @@
         <p>Would you like to take a well planned trip to tourist locations in Spreewald?
             Save yourself the time and effort as we offer you several packages which include accomodation and transportation at moderate prices to tourist sites at Burg, Lubbenau, Lubben, Calau and Cottbus.
         </p>
-        <a href="#section-b" class="btn">Read More</a>
+     <div tabindex="0"> <a href="#section-b" class="btn">Read More</a> </div>
     </div>
 
 
@@ -71,7 +71,7 @@
         <div class="content-wrap">
             <h3 class="content-title">
                 <a href="index.html">
-                    <img id="logo" src="../../img/Imges/logo1.png" alt="SpreewaldGürken-Home">
+                    <img id="logo" src="../../img/Imges/logo1.png" alt="SpreewaldGürken-Home" tabindex="1">
                 </a>
             </h3>
             <div class="content-text">
@@ -87,7 +87,7 @@
     <section id="section-b" class="grid">
         <ul>
             <li>
-                <div class="card">
+                <div class="card" tabindex="0">
                     <img src="../../img/Imges/G1.png" alt="">
                     <div class="card-content">
                         <h3 class="card-title">Forest Cycling Tour</h3>
@@ -96,7 +96,7 @@
                 </div>
             </li>
             <li>
-                <div class="card">
+                <div class="card" tabindex="0">
                     <img src="../../img/Imges/G3.png" alt="">
                     <div class="card-content">
                         <h3 class="card-title">River Boat-ride Tour</h3>
@@ -105,7 +105,7 @@
                 </div>
             </li>
             <li>
-                <div class="card">
+                <div class="card" tabindex="0">
                     <img src="../../img/Imges/G2.png" alt="">
                     <div class="card-content">
                         <h3 class="card-title">Food and Cultural Tourism</h3>
@@ -126,7 +126,7 @@
     </section>
 
     <!-- Section D -->
-    <section id="section-d" class="grid">
+    <section id="section-d" class="grid" tabindex="0">
         <div class="box">
             <h2 class="content-title">Contact Us</h2>
             <p>preeWaldGürcken GmbH<br>Karl-liebkenchtStr 102<br>Germany<br>03046 Cottbus<br>
@@ -146,13 +146,13 @@
 
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
-        <li>
-            <a href='#' target='_blank'><span class="socicon-facebook"></span></a>
+        <li tabindex="0">
+            <a href='#' target='_blank' ><span class="socicon-facebook"></span></a>
         </li>
-        <li>
-            <a href="../Shop/Home/Shop.html" > Packages </a>
+        <li tabindex="0">
+            <a href="../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
         </li>
-        <li>
+        <li tabindex="0">
             <a href='#' target='_blank'><span class="socicon-instagram"></span></a>
         </li>
     </ul>

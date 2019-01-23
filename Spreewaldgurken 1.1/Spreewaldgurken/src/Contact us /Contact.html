@@ -7,36 +7,36 @@
     <link href = "../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
-<body onload="displayinfo()">
+<body onload="displayinfo(); accesskey()">
 
 <!--navagation-->
-<nav class="topnav" id="myTopnav">
-    <a href="../Home/index.html" class="active">Home</a>
+<nav class="topnav" id="myTopnav" >
+    <div tabindex="0">  <a href="../Home/index.html" class="active" id="home">Home</a> </div>
 
-    <div class="dropdown">
-        <div class="dropbtn"> <a href="../Shop/Home/Shop.html"> Packages </a>
+    <div class="dropdown" tabindex="0">
+        <div class="dropbtn"> <a href="../Shop/Home/Shop.html" id="Packages"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../Shop/Special%20offers/SpecialOffers.html">Special offers</a>
-            <a href="../Shop/Dailytrip/Dailytrip.html">Daytrip</a>
-            <a href="../Shop/Hollydays/Hollydays.html">Holliday</a>
-            <a href="../Shop/Sport/Sport.html">Sport</a>
+            <a href="../Shop/Special%20offers/SpecialOffers.html" id="Special">Special offers</a>
+            <a href="../Shop/Dailytrip/Dailytrip.html" id="Daytrip">Daytrip</a>
+            <a href="../Shop/Hollydays/Hollydays.html" id="Holliday">Holliday</a>
+            <a href="../Shop/Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" tabindex="0">
         <div class="dropbtn"> <a href="#" > About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../About%20the%20region/Description/Description.html">Description </a>
-            <a href="../About%20the%20region/Foto/Foto.html">fotos</a>
-            <a href="../About%20the%20region/Video/video.html">video</a>
-            <a href="../About%20the%20region/wallpaper/wallpaper.html">wallpaper</a>
+            <a href="../About%20the%20region/Description/Description.html" id="Description">Description </a>
+            <a href="../About%20the%20region/Foto/Foto.html" id="fotos">fotos</a>
+            <a href="../About%20the%20region/Video/video.html" id="video">video</a>
+            <a href="../About%20the%20region/wallpaper/wallpaper.html" id="wallpaper">wallpaper</a>
         </div>
     </div>
-    <a href="../AboutUs/AboutUs.html">About us</a>
-    <a href="../Contact%20us%20/Contact.html">Contact us</a>
+    <div tabindex="0"> <a href="../AboutUs/AboutUs.html" id="About">About us</a></div>
+    <div tabindex="0"> <a href="../Contact%20us%20/Contact.html" id="Contact">Contact us</a> </div>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </nav>
 
@@ -45,7 +45,7 @@
 <!-- Section A -->
 <header>
     <ul class="breadcrumb">
-        <li><a href="../Home/index.html">Home</a></li>
+        <li tabindex="0"><a href="../Home/index.html">Home</a></li>
         <li>Contact us</li>
     </ul>
 
@@ -53,15 +53,15 @@
 
 <div class="container">
     <form action="#">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="fname" >First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." tabindex="0">
 
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." tabindex="0">
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" tabindex="0"></textarea>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" tabindex="0">
     </form>
 </div>
 </header>
@@ -74,11 +74,11 @@
         <div id='show'></div>
         <!--<p> Swap the noise of the city for the rich sounds of nature. Come to the holiday in the Spreewald. In just a few hours, the best conditions for a journey to yourself. Discover your inner balance in the midst of nature. A Spreewald vacation has many faces. Whether active by bike or directly with the paddle boat on the classic waterways of the region. Time will come to life in the Spreewald. Do you keep moving on holiday? The region offers relaxation in wellness and SPA in comfortable hotels, not only in the spontaneous break and short break ...</p> -->
     </div>
-</main>
 
+</main>
 <!-- Section C -->
 <div id="main">
-    <section id="section-d" class="grid">
+    <section id="section-d" class="grid" tabindex="0">
         <div class="box">
             <h2 class="content-title">Contact Us</h2>
             <p>preeWaldGürcken GmbH<br>Karl-liebkenchtStr 102<br>Germany<br>03046 Cottbus<br>
@@ -100,17 +100,18 @@
 
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
-        <li>
-            <a href='#' target='_blank'><span class="socicon-facebook"></span></a>
+        <li tabindex="0">
+            <a href='#' target='_blank' ><span class="socicon-facebook"></span></a>
         </li>
-        <li>
-            <a href="../Shop/Home/Shop.html" > Packages </a>
+        <li tabindex="0">
+            <a href="../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
         </li>
-        <li>
+        <li tabindex="0">
             <a href='#' target='_blank'><span class="socicon-instagram"></span></a>
         </li>
     </ul>
 </footer>
 <script src="../../js/Script2.js"></script>
+<script src="../../js/Script.js"></script>
 </body>
 </html>

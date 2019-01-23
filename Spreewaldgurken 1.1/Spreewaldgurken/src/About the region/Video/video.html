@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <title>Spreewald Videos</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href = "../../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 </head>
-<body>
+<body onload="accesskey()">
 
 <!--navagation-->
 <nav class="topnav" id="myTopnav">
-    <a href="../../Home/index.html" class="active">Home</a>
+    <div tabindex="0" >  <a href="../../Home/index.html" class="active" id="home">Home</a></div>
 
-    <div class="dropdown">
-        <div class="dropbtn"> <a href="../../Shop/Home/Shop.html" id="shopee"> Packages </a>
+    <div class="dropdown" tabindex="0">
+        <div class="dropbtn"> <a href="../../Shop/Home/Shop.html" id="Packages"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../../Shop/Special%20offers/SpecialOffers.html">Special offers</a>
-            <a href="../../Shop/Dailytrip/Dailytrip.html">Daytrip</a>
-            <a href="../../Shop/Hollydays/Hollydays.html">Holliday</a>
-            <a href="../../Shop/Sport/Sport.html">Sport</a>
+            <a href="../../Shop/Special%20offers/SpecialOffers.html" id="Special">Special offers</a>
+            <a href="../../Shop/Dailytrip/Dailytrip.html" id="Daytrip">Daytrip</a>
+            <a href="../../Shop/Hollydays/Hollydays.html" id="Holliday">Holliday</a>
+            <a href="../../Shop/Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" tabindex="0">
         <div class="dropbtn"> <a href="#" > About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../Description/Description.html">Description </a>
-            <a href="../Foto/Foto.html">fotos</a>
+            <a href="../Description/Description.html" id="Description">Description </a>
+            <a href="../Foto/Foto.html" id="fotos">fotos</a>
             <a href="#">video</a>
-            <a href="../wallpaper/wallpaper.html">wallpaper</a>
+            <a href="../wallpaper/wallpaper.html" id="wallpaper">wallpaper</a>
         </div>
     </div>
-    <a href="../../AboutUs/AboutUs.html">About us</a>
-    <a href="../../Contact%20us%20/Contact.html">Contact us</a>
+    <a href="../../AboutUs/AboutUs.html" id="About">About us</a>
+    <a href="../../Contact%20us%20/Contact.html" id="Contact">Contact us</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 </nav>
 
@@ -50,7 +51,7 @@
 
 
     <ul class="breadcrumb">
-        <li><a href="../../Home/index.html">Home</a></li>
+        <li tabindex="0"><a href="../../Home/index.html">Home</a></li>
         <li>video</li>
     </ul>
 </header>
@@ -81,13 +82,13 @@
 
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
-        <li>
-            <a href='#' target='_blank'><span class="socicon-facebook"></span></a>
+        <li tabindex="0">
+            <a href='#' target='_blank' ><span class="socicon-facebook"></span></a>
         </li>
-        <li>
-            <a href="../../Shop/Home/Shop.html" > Packages </a>
+        <li tabindex="0">
+            <a href="../../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
         </li>
-        <li>
+        <li tabindex="0">
             <a href='#' target='_blank'><span class="socicon-instagram"></span></a>
         </li>
     </ul>

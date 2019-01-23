@@ -7,46 +7,46 @@
     <link href = "../../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
-<body>
+<body onload="accesskey()">
 
 <!--navagation-->
 <nav class="topnav" id="myTopnav">
-    <a href="../../Home/index.html" class="active">Home</a>
+    <div tabindex="0"> <a href="../../Home/index.html" class="active" id="home">Home</a> </div>
 
-    <div class="dropdown">
-        <div class="dropbtn"> <a href="../../Shop/Home/Shop.html" id="shopee"> Packages </a>
+    <div class="dropdown" tabindex="0">
+        <div class="dropbtn"> <a href="../../Shop/Home/Shop.html" id="Packages"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../../Shop/Special%20offers/SpecialOffers.html">Special offers</a>
-            <a href="../../Shop/Dailytrip/Dailytrip.html">Daytrip</a>
-            <a href="../../Shop/Hollydays/Hollydays.html">Holliday</a>
-            <a href="../../Shop/Sport/Sport.html">Sport</a>
+            <a href="../../Shop/Special%20offers/SpecialOffers.html" id="Special">Special offers</a>
+            <a href="../../Shop/Dailytrip/Dailytrip.html" id="Daytrip">Daytrip</a>
+            <a href="../../Shop/Hollydays/Hollydays.html" id="Holliday">Holliday</a>
+            <a href="../../Shop/Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" tabindex="0">
         <div class="dropbtn"> <a href="#" > About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="Description.html"> Description </a>
-            <a href="../Foto/Foto.html">fotos</a>
-            <a href="../Video/video.html">video</a>
-            <a href="../wallpaper/wallpaper.html">wallpaper</a>
+            <a href="Description.html" id="Description"> Description </a>
+            <a href="../Foto/Foto.html" id="fotos">fotos</a>
+            <a href="../Video/video.html" id="video">video</a>
+            <a href="../wallpaper/wallpaper.html" id="wallpaper">wallpaper</a>
         </div>
     </div>
-    <a href="../../AboutUs/AboutUs.html">About us</a>
-    <a href="../../Contact%20us%20/Contact.html">Contact us</a>
+    <div tabindex="0"> <a href="../../AboutUs/AboutUs.html" id="About">About us</a> </div>
+    <div tabindex="0">  <a href="../../Contact%20us%20/Contact.html" id="Contact">Contact us</a> </div>
 
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 </nav>
 
 
 
-<header>
+<header tabindex="0">
 
     <ul class="breadcrumb">
-        <li><a href="../../Home/index.html">Home</a></li>
+        <li tabindex="0"><a href="../../Home/index.html">Home</a></li>
         <li>Description</li>
     </ul>
 </header>
@@ -62,7 +62,7 @@
             The Spreewald is an extensive lowland area and a historic cultural landscape in the southeast of the state of Brandenburg . The main feature is the natural river branch of the Spree , which has been significantly expanded by established channels. As an alluvial and moor landscape, it is of national importance for nature conservation and is protected as a biosphere reserve. The Spreewald as a cultural landscape was the center of the Battle of Halbe at the end of World War II, which included the last major land conflicts between German and Soviet forces. The area is one of the most famous and popular destinations in the state of Brandenburg.
         </p>
         <p>
-            <a href="https://en.wikipedia.org/wiki/Spreewald">
+            <a href="https://en.wikipedia.org/wiki/Spreewald" tabindex="0">
                 Read more on wiki
             </a>
         </p>
@@ -74,7 +74,7 @@
 
 <!-- Section D -->
 <div>
-    <section id="section-d" class="grid">
+    <section id="section-d" class="grid" tabindex="0">
         <div class="box">
             <h2 class="content-title">Contact Us</h2>
             <p>preeWaldGürcken GmbH<br>Karl-liebkenchtStr 102<br>Germany<br>03046 Cottbus<br>
@@ -95,13 +95,13 @@
 
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
-        <li>
-            <a href='#' target='_blank'><span class="socicon-facebook"></span></a>
+        <li tabindex="0">
+            <a href='#' target='_blank' ><span class="socicon-facebook"></span></a>
         </li>
-        <li>
-            <a href="../../Shop/Home/Shop.html" > Packages </a>
+        <li tabindex="0">
+            <a href="../../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
         </li>
-        <li>
+        <li tabindex="0">
             <a href='#' target='_blank'><span class="socicon-instagram"></span></a>
         </li>
     </ul>

@@ -7,45 +7,44 @@
     <link href = "../../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
-<body>
+<body onload="accesskey()">
 
 <!--navagation-->
 <nav class="topnav" id="myTopnav">
-    <a href="../../Home/index.html" class="active">Home</a>
-    <div class="dropdown">
-        <div class="dropbtn"> <a href="../Home/Shop.html" id="shopee"> Packages </a>
+    <div tabindex="0"> <a href="../../Home/index.html" class="active" id="home">Home</a> </div>
+    <div class="dropdown" tabindex="0">
+        <div class="dropbtn"> <a href="../Home/Shop.html" id="Packages"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../Special%20offers/SpecialOffers.html">Special offers</a>
-            <a href="../Dailytrip/Dailytrip.html">Daytrip</a>
-            <a href="../Hollydays/Hollydays.html">Holliday</a>
-            <a href="../Sport/Sport.html">Sport</a>
+            <a href="../Special%20offers/SpecialOffers.html" id="Special">Special offers</a>
+            <a href="../Dailytrip/Dailytrip.html" id="Daytrip">Daytrip</a>
+            <a href="../Hollydays/Hollydays.html" id="Holliday">Holliday</a>
+            <a href="../Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" tabindex="0">
         <div class="dropbtn"> <a href="#" > About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../../About%20the%20region/Description/Description.html">Description </a>
-            <a href="../../About%20the%20region/Foto/Foto.html">fotos</a>
-            <a href="../../About%20the%20region/Video/video.html">video</a>
-            <a href="../../About%20the%20region/wallpaper/wallpaper.html">wallpaper</a>
+            <a href="../../About%20the%20region/Description/Description.html" id="Description">Description </a>
+            <a href="../../About%20the%20region/Foto/Foto.html" id="fotos">fotos</a>
+            <a href="../../About%20the%20region/Video/video.html" id="video">video</a>
+            <a href="../../About%20the%20region/wallpaper/wallpaper.html" id="wallpaper">wallpaper</a>
         </div>
     </div>
-
-    <a href="../../AboutUs/AboutUs.html">About us</a>
-    <a href="../../Contact%20us%20/Contact.html">Contact us</a>
+    <div tabindex="0"><a href="../../AboutUs/AboutUs.html" id="About">About us</a> </div>
+    <div tabindex="0"><a href="../../Contact%20us%20/Contact.html" id="Contact">Contact us</a> </div>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 </nav>
 
 
 
-<header>
+<header tabindex="0">
 
     <ul class="breadcrumb">
-        <li><a href="../../Home/index.html">Home</a></li>
+        <li tabindex="0"><a href="../../Home/index.html">Home</a></li>
         <li>Packages</li>
     </ul>
 </header>
@@ -55,32 +54,32 @@
 
 <!-- Section A -->
 <main class="Wrapper1" id="main" >
-    <div class="boxe boxe1" >
-        <div> promotion und Special offers </div>
-        <div> <a href="../Special%20offers/SpecialOffers.html" class="linken" >  <img src="../../../img/Neuer%20Ordner/cucumber.svg" alt=""  class="cucumber" > </a> </div>
+    <div class="boxe boxe1" tabindex="0">
+        <div> <u>P</u>romotion und Special offers </div>
+        <div> <a href="../Special%20offers/SpecialOffers.html" class="linken" accesskey="p" >  <img src="../../../img/Neuer%20Ordner/cucumber.svg" alt=""  class="cucumber" > </a> </div>
     </div>
-    <div class="boxe boxe2" >
-        <div> Daytrip </div>
-        <div> <a href="../Dailytrip/Dailytrip.html" class="linken" > <img src="../../../img/Neuer%20Ordner/cucumber-2.svg" alt=""  class="cucumber" >
+    <div class="boxe boxe2" tabindex="0">
+        <div> <u>D</u>aytrip </div>
+        <div> <a href="../Dailytrip/Dailytrip.html" class="linken" accesskey="d"> <img src="../../../img/Neuer%20Ordner/cucumber-2.svg" alt=""  class="cucumber" >
         </a> </div>
     </div>
-    <div class="boxe boxe3" >
-        <div>Hollydays </div>
+    <div class="boxe boxe3" tabindex="0" >
+        <div><u>H</u>ollydays </div>
         <div>
-            <a href="../Hollydays/Hollydays.html" class="linken" > <img src="../../../img/Neuer%20Ordner/cucumber-5.svg" alt=""  class="cucumber" > </a>
+            <a href="../Hollydays/Hollydays.html" class="linken" accesskey="h" > <img src="../../../img/Neuer%20Ordner/cucumber-5.svg" alt=""  class="cucumber" > </a>
         </div>
     </div>
-    <div class="boxe boxe4">
-        <div> Sport </div>
+    <div class="boxe boxe4" tabindex="0">
+        <div> <u>S</u>port </div>
         <div>
-            <a href="../Sport/Sport.html" class="linken" >  <img src="../../../img/Neuer%20Ordner/cucumber-4.svg" alt=""  class="cucumber" > </a>
+            <a  href="../Sport/Sport.html" class="linken" accesskey="s" >  <img src="../../../img/Neuer%20Ordner/cucumber-4.svg" alt=""  class="cucumber" > </a>
         </div>
     </div>
 </main>
 
 <!-- Section B -->
 <div >
-    <section id="section-d" class="grid">
+    <section id="section-d" class="grid" tabindex="0">
         <div class="box">
             <h2 class="content-title">Contact Us</h2>
             <p>preeWaldGürcken GmbH<br>Karl-liebkenchtStr 102<br>Germany<br>03046 Cottbus<br>
@@ -100,13 +99,13 @@
 
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
-        <li>
-            <a href='#' target='_blank'><span class="socicon-facebook"></span></a>
+        <li tabindex="0">
+            <a href='#' target='_blank' ><span class="socicon-facebook"></span></a>
         </li>
-        <li>
+        <li tabindex="0">
             <a href="../../Shop/Home/Shop.html" > Packages </a>
         </li>
-        <li>
+        <li tabindex="0">
             <a href='#' target='_blank'><span class="socicon-instagram"></span></a>
         </li>
     </ul>
