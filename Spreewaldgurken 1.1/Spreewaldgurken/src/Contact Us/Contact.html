@@ -1,77 +1,85 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html lang="en">
 <head>
-
-    <title>SpreewaldGürken Holiday</title>
-    <meta charset="utf-8">
+    <title>Spreewaldgurcken Contact</title>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href = "../../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
+    <link href = "../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
-<body onload="displayHoliday() ; accesskey()">
+<body onload="displayinfo(); accesskey()">
 
 <!--navagation-->
-<nav class="topnav" id="myTopnav">
+<nav class="topnav" id="myTopnav" >
     <div tabindex="0">  
-        <a href="../../Home/index.html" class="active" id="home">Home</a> 
+        <a href="../Home/index.html" class="active" id="home">Home</a> 
     </div>
-    <div class="dropdown" tabindex="0" >
+    <div class="dropdown" tabindex="0">
         <div class="dropbtn"> 
-            <a href="../Home/Shop.html" id="Packages"> Packages </a>
+            <a href="../Shop/Home/Shop.html" id="Packages"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../Special%20offers/SpecialOffers.html" id="Special">Special offers</a>
-            <a href="../Dailytrip/Dailytrip.html" id="Daytrip">Daytrip</a>
-            <a href="../Hollydays/Hollydays.html" id="Holliday">Holiday</a>
-            <a href="../Sport/Sport.html" id="Sport">Sport</a>
+            <a href="../Shop/Special%20offers/SpecialOffers.html" id="Special">Special offers</a>
+            <a href="../Shop/Dailytrip/Dailytrip.html" id="Daytrip">Daytrip</a>
+            <a href="../Shop/Hollydays/Hollydays.html" id="Holliday">Holiday</a>
+            <a href="../Shop/Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
     <div class="dropdown" tabindex="0">
         <div class="dropbtn"> 
-            <a href="../../About%20the%20region/Description/Description.html" > About the region </a>
+            <a href="../About%20the%20region/Description/Description.html" > About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
-            <a href="../../About%20the%20region/Description/Description.html" id="Description">Description </a>
-            <a href="../../About%20the%20region/Foto/Foto.html" id="fotos">Photos</a>
-            <a href="../../About%20the%20region/Video/video.html" id="video">Video</a>
-            <a href="../../About%20the%20region/wallpaper/wallpaper.html" id="wallpaper">Wallpaper</a>
+            <a href="../About%20the%20region/Description/Description.html" id="Description">Description </a>
+            <a href="../About%20the%20region/Foto/Foto.html" id="fotos">Photos</a>
+            <a href="../About%20the%20region/Video/video.html" id="video">Video</a>
+            <a href="../About%20the%20region/wallpaper/wallpaper.html" id="wallpaper">Wallpaper</a>
         </div>
     </div>
-    <div tabindex="0">
-        <a href="../../AboutUs/AboutUs.html" id="About">About us</a> 
+    <div tabindex="0"> 
+        <a href="../AboutUs/AboutUs.html" id="About">About us</a>
     </div>
     <div tabindex="0"> 
-        <a href="../../Contact%20Us/Contact.html" id="Contact">Contact us</a> 
+        <a href="Contact.html" id="Contact">Contact us</a> 
     </div>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </nav>
 
+<!-- Section A -->
 <header>
     <ul class="breadcrumb">
         <li tabindex="0">
-            <a href="../../Home/index.html">Home</a>
+            <a href="../Home/index.html">Home</a>
         </li>
-        <li tabindex="0">
-            <a href="../Home/Shop.html">Packages</a>
-        </li>
-        <li>Holliday</li>
+        <li>Contact us</li>
     </ul>
-    <div class="content-wrap">
-        <h2 class="content-title"> We offer the best experience at affordable prices for you </h2>
+    <h3>Contact Form</h3>
+    <div class="container">
+        <form action="#">
+            <label for="fname" >First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." tabindex="0">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." tabindex="0">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" tabindex="0"></textarea>
+            <input type="submit" value="Submit" tabindex="0">
+        </form>
     </div>
 </header>
-
+    
 <!-- Section B -->
-<main id="main">
-<div id="Triptable" >
-    <div>  
-        <table id="holiday"></table>
+<main id="section-c" class="grid">
+    <div class="content-wrap">
+        <h2 class="content-title">  We are happy to hear from you </h2>
+        <div id='show'></div>
     </div>
-</div>
-<div>
-    <section id="section-d" class="grid">
+
+</main>
+<!-- Section C -->
+<div id="main">
+    <section id="section-d" class="grid" tabindex="0">
         <div class="box" vocab="http://schema.org/">
             <h2 class="content-title">Contact Us</h2>
             <p typeof="Organization">
@@ -88,7 +96,6 @@
                 <span property="email">contact@spreewahld.de</span>
             </p>
         </div>
-
         <div class="box">
             <h2 class="content-title">About Our services</h2>
             <p>Are you on holiday in the Spreewald for the first time? Or do need information about holiday activities in the Spreewald? The tips below will help you plan your trip to the Spreewald better. We assure you of an experience that is affordable, your monies worth, and above all, worth your recreational time.
@@ -96,7 +103,7 @@
         </div>
     </section>
 </div>
-</main>
+
 <!-- Footer -->
 <footer id="main-footer" class="grid-grid">
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
@@ -107,7 +114,7 @@
             </a>
         </li>
         <li tabindex="0">
-            <a href="../../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
+            <a href="../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
         </li>
         <li tabindex="0">
             <a href='#' target='_blank'>
@@ -116,6 +123,7 @@
         </li>
     </ul>
 </footer>
-<script src="../../../js/Script.js"></script>
+<script src="../../js/Script2.js"></script>
+<script src="../../js/Script.js"></script>
 </body>
 </html>
