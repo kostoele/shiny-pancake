@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35c88eb-0b19-4bba-92c8-f30e9a432fca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/js/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/js/Script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/js/Script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/js/Script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Description/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Description/Description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/AboutUs/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/AboutUs/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Contact us /Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Contact us /Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Dailytrip/Dailytrip.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Dailytrip/Dailytrip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Hollydays/Hollydays.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Hollydays/Hollydays.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Home/Shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Home/Shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Sport/Sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Sport/Sport.html" afterDir="false" />
-    </list>
+    <list default="true" id="f35c88eb-0b19-4bba-92c8-f30e9a432fca" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,20 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="69" />
+            <state relative-caret-position="-204">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="76" lean-forward="true" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+            <state relative-caret-position="125">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -206,13 +190,6 @@
               <item name="Spreewaldgurken" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Spreewaldgurken 1.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spreewaldgurken 1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Spreewaldgurken" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -301,12 +278,12 @@
       <workItem from="1548196458770" duration="828000" />
       <workItem from="1548204706883" duration="4194000" />
       <workItem from="1548209091656" duration="419000" />
-      <workItem from="1548209550391" duration="242000" />
+      <workItem from="1548209550391" duration="792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105699000" />
+    <option name="totallyTimeSpent" value="106249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="845" extended-state="6" />
@@ -504,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spreewaldgurken/js/Script2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -520,8 +490,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="76" lean-forward="true" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        <state relative-caret-position="125">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
