@@ -34,12 +34,13 @@ function displayinfo()
 
 
 
-function myFunction() {
-    var y = document.getElementById("myTopnav");
-    if (y.className === "topnav") {
-        y.className += " responsive";
+
+function myFunctionn() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
     } else {
-        y.className = "topnav";
+        x.className = "topnav";
     }
 }
 
