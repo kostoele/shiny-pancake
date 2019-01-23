@@ -1,47 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Spreewald Sport</title>
-    <meta charset="utf-8">
+    <title>About Spreewald Region</title>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href = "../../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
-<body onload="displaySport() ; accesskey()">
+<body onload="accesskey()">
 
+<!--navagation-->
 <nav class="topnav" id="myTopnav">
+    <div tabindex="0"> 
+        <a href="../../Home/index.html" class="active" id="home">Home</a> 
+    </div>
+
+    <div class="dropdown" tabindex="0">
+        <div class="dropbtn"> 
+            <a href="../../Shop/Home/Shop.html" id="Packages"> Packages </a>
+            <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="../../Shop/Special%20offers/SpecialOffers.html" id="Special">Special offers</a>
+            <a href="../../Shop/Dailytrip/Dailytrip.html" id="Daytrip">Daytrip</a>
+            <a href="../../Shop/Hollydays/Hollydays.html" id="Holliday">Holiday</a>
+            <a href="../../Shop/Sport/Sport.html" id="Sport">Sport</a>
+        </div>
+    </div>
+    <div class="dropdown" tabindex="0">
+        <div class="dropbtn"> 
+            <a href="Description.html" > About the region </a>
+            <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="Description.html" id="Description"> Description </a>
+            <a href="../Foto/Foto.html" id="fotos">Photos</a>
+            <a href="../Video/video.html" id="video">Video</a>
+            <a href="../wallpaper/wallpaper.html" id="wallpaper">Wallpaper</a>
+        </div>
+    </div>
+    <div tabindex="0"> 
+        <a href="../../AboutUs/AboutUs.html" id="About">About us</a> 
+    </div>
     <div tabindex="0">  
-        <a href="../../Home/index.html" class="active" id="home">Home</a>
-    </div>
-    <div class="dropdown" tabindex="0">
-        <div class="dropbtn"> 
-            <a href="../Home/Shop.html" id="Packages"> Packages </a>
-            <i class="fa fa-caret-down"></i>
-        </div>
-        <div class="dropdown-content">
-            <a href="../Special%20offers/SpecialOffers.html" id="Special" >Special offers</a>
-            <a href="../Dailytrip/Dailytrip.html" id="Daytrip" >Daytrip</a>
-            <a href="../Hollydays/Hollydays.html" id="Holliday">Holiday </a>
-            <a href="../Sport/Sport.html" id="Sport">Sport</a>
-        </div>
-    </div>
-    <div class="dropdown" tabindex="0">
-        <div class="dropbtn"> 
-            <a href="../../About%20the%20region/Description/Description.html" > About the region </a>
-            <i class="fa fa-caret-down"></i>
-        </div>
-        <div class="dropdown-content">
-            <a href="../../About%20the%20region/Description/Description.html" id="Description">Description </a>
-            <a href="../../About%20the%20region/Foto/Foto.html" id="fotos">Photos</a>
-            <a href="../../About%20the%20region/Video/video.html" id="video">Video</a>
-            <a href="../../About%20the%20region/wallpaper/wallpaper.html" id="wallpaper">Wallpaper</a>
-        </div>
-    </div>
-    <div tabindex="0"> 
-        <a href="../../AboutUs/AboutUs.html" id="About">About us</a>
-    </div>
-    <div tabindex="0"> 
-        <a href="../../Contact%20Us/Contact.html" id="Contact">Contact us</a>
+        <a href="../../Contact%20Us/Contact.html" id="Contact">Contact us</a> 
     </div>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 </nav>
@@ -51,28 +53,27 @@
         <li tabindex="0">
             <a href="../../Home/index.html">Home</a>
         </li>
-        <li tabindex="0">
-            <a href="../Home/Shop.html">Packages</a>
-        </li>
-        <li>Sport</li>
+        <li>Description</li>
     </ul>
-    <div class="content-wrap">
-        <h2 class="content-title"> We offer the best experience at affordable prices for you </h2>
-    </div>
-
 </header>
 
-<main id="main" tabindex="0">
-<!-- Section A -->
+<!-- Section C -->
+<main id="main">
+<section id="section-c" class="grid">
+    <div class="content-wrap">
+        <h2 class="content-title">Spreewald</h2>
+        <p>
+            The Spreewald is an extensive lowland area and a historic cultural landscape in the southeast of the state of Brandenburg . The main feature is the natural river branch of the Spree , which has been significantly expanded by established channels. As an alluvial and moor landscape, it is of national importance for nature conservation and is protected as a biosphere reserve. The Spreewald as a cultural landscape was the center of the Battle of Halbe at the end of World War II, which included the last major land conflicts between German and Soviet forces. The area is one of the most famous and popular destinations in the state of Brandenburg.
+        </p>
+        <p>
+            <a href="https://en.wikipedia.org/wiki/Spreewald" tabindex="0">Read more on wiki</a>
+        </p>
+    </div>
+</section>
+</main>
 
-<div id='show'></div><br>
-<input type="button" onclick="previous()" value="<<" />
-<input type="button" onclick="next()" value=">>" />
-
-<!-- end Section A -->
-    
-<!-- Section B -->
-<div >
+<!-- Section D -->
+<div>
     <section id="section-d" class="grid" tabindex="0">
         <div class="box" vocab="http://schema.org/">
             <h2 class="content-title">Contact Us</h2>
@@ -90,19 +91,17 @@
                 <span property="email">contact@spreewahld.de</span>
             </p>
         </div>
+
         <div class="box">
             <h2 class="content-title">About Our services</h2>
-            <p>Are you on holiday in the Spreewald for the first time? Or do nee1d information about holiday activities in the Spreewald? The tips below will help you plan your trip to the Spreewald better. We assure you of an experience that is affordable, your monies worth, and above all, worth your recreational time.
+            <p>Are you on holiday in the Spreewald for the first time? Or do need information about holiday activities in the Spreewald? The tips below will help you plan your trip to the Spreewald better. We assure you of an experience that is affordable, your monies worth, and above all, worth your recreational time.
             </p>
         </div>
     </section>
 </div>
 
-</main>
-
 <!-- Footer -->
 <footer id="main-footer" class="grid-grid">
-
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
         <li tabindex="0">
@@ -111,7 +110,9 @@
             </a>
         </li>
         <li tabindex="0">
-            <a href="../../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
+            <a href="../../Shop/Home/Shop.html" accesskey="p" > 
+                <u>P</u>ackages 
+            </a>
         </li>
         <li tabindex="0">
             <a href='#' target='_blank'>
