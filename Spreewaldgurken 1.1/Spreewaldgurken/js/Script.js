@@ -12,7 +12,7 @@ xmlhttp.open("GET","catalog.xml",false);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML;
 
-var x=xmlDoc.getElementsByTagName("SPORT");
+ x=xmlDoc.getElementsByTagName("SPORT");
 i=0;
 
 function displaySport()
