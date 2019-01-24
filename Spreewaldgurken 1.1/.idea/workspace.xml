@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35c88eb-0b19-4bba-92c8-f30e9a432fca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="65" />
+            <state relative-caret-position="115">
+              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -55,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/js/Script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="105" column="34" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="34" />
+            <state relative-caret-position="264">
+              <caret line="104" column="34" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -70,6 +70,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Description/Description.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1817">
+              <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/AboutUs/AboutUs.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+            <state relative-caret-position="248">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -176,7 +194,6 @@
         <option value="$PROJECT_DIR$/Spreewaldgurken/js/SportScript.js" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/js/Script.js" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/css/StyleAlternativ.css" />
-        <option value="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/Home/index.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/Contact Us/Contact.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Hollydays/Hollydays.html" />
@@ -186,8 +203,9 @@
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Description/Description.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/Shop/Home/Shop.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/AboutUs/AboutUs.html" />
-        <option value="$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html" />
         <option value="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html" />
+        <option value="$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html" />
       </list>
     </option>
   </component>
@@ -226,22 +244,6 @@
               <item name="Spreewaldgurken" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="About the region" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spreewaldgurken 1.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spreewaldgurken 1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Spreewaldgurken" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="About the region" type="462c0819:PsiDirectoryNode" />
-              <item name="Video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spreewaldgurken 1.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spreewaldgurken 1.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Spreewaldgurken" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="About the region" type="462c0819:PsiDirectoryNode" />
-              <item name="wallpaper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,16 +365,15 @@
       <workItem from="1548336314507" duration="2974000" />
       <workItem from="1548339643302" duration="27000" />
       <workItem from="1548339693324" duration="467000" />
-      <workItem from="1548340472256" duration="1629000" />
+      <workItem from="1548340472256" duration="1953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122875000" />
+    <option name="totallyTimeSpent" value="123199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="845" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1529246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -502,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Description/Description.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Special offers/SpecialOffers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
@@ -527,13 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -558,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/js/Script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="105" column="34" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/Shop/Home/Shop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -581,15 +561,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/wallpaper/wallpaper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="65" />
+        <state relative-caret-position="115">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/js/Script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="104" column="34" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Video/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        <state relative-caret-position="248">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Foto/Foto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreewaldgurken/src/About the region/Description/Description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="127" column="56" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
         </state>
       </provider>
     </entry>
