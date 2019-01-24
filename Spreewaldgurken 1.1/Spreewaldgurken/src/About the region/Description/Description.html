@@ -7,18 +7,19 @@
     <link href = "../../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link href="../../../css/StyleAlternativ.css" rel="alternate stylesheet" type="text/css" title="blackandwhite" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="../../../js/Script.js" defer="defer"></script>
 </head>
 <body onload="accesskey()">
 
 <!--navagation-->
 <nav class="topnav" id="myTopnav">
-    <div tabindex="0"> 
-        <a href="../../Home/index.html" class="active" id="home">Home</a> 
+    <div>
+        <a href="../../Home/index.html" class="active" id="home" tabindex="1">Home</a>
     </div>
 
-    <div class="dropdown" tabindex="0">
+    <div class="dropdown">
         <div class="dropbtn"> 
-            <a href="../../Shop/Home/Shop.html" id="Packages"> Packages </a>
+            <a href="../../Shop/Home/Shop.html" id="Packages" tabindex="2"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
@@ -28,9 +29,9 @@
             <a href="../../Shop/Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown" tabindex="0">
+    <div class="dropdown">
         <div class="dropbtn"> 
-            <a href="Description.html" > About the region </a>
+            <a href="Description.html" tabindex="3"> About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
@@ -40,19 +41,18 @@
             <a href="../wallpaper/wallpaper.html" id="wallpaper">Wallpaper</a>
         </div>
     </div>
-    <div tabindex="0"> 
-        <a href="../../AboutUs/AboutUs.html" id="About">About us</a> 
-    </div>
-    <div tabindex="0">  
-        <a href="../../Contact%20Us/Contact.html" id="Contact">Contact us</a> 
-    </div>
+
+        <a href="../../AboutUs/AboutUs.html" id="About" tabindex="4">About us</a>
+
+        <a href="../../Contact%20Us/Contact.html" id="Contact" tabindex="5">Contact us</a>
+
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 </nav>
 
-<header tabindex="0">
+<header >
     <ul class="breadcrumb">
-        <li tabindex="0">
-            <a href="../../Home/index.html">Home</a>
+        <li >
+            <a href="../../Home/index.html" tabindex="6">Home</a>
         </li>
         <li>Description</li>
     </ul>
@@ -67,7 +67,7 @@
             The Spreewald is an extensive lowland area and a historic cultural landscape in the southeast of the state of Brandenburg . The main feature is the natural river branch of the Spree , which has been significantly expanded by established channels. As an alluvial and moor landscape, it is of national importance for nature conservation and is protected as a biosphere reserve. The Spreewald as a cultural landscape was the center of the Battle of Halbe at the end of World War II, which included the last major land conflicts between German and Soviet forces. The area is one of the most famous and popular destinations in the state of Brandenburg.
         </p>
         <p>
-            <a href="https://en.wikipedia.org/wiki/Spreewald" tabindex="0">Read more on wiki</a>
+            <a href="https://en.wikipedia.org/wiki/Spreewald" tabindex="7">Read more on wiki</a>
         </p>
     </div>
 </section>
@@ -75,7 +75,7 @@
 
 <!-- Section D -->
 <div>
-    <section id="section-d" class="grid" tabindex="0">
+    <section id="section-d" class="grid" >
         <div class="box" vocab="http://schema.org/">
             <h2 class="content-title">Contact Us</h2>
             <p typeof="Organization">
@@ -105,18 +105,18 @@
 <footer id="main-footer" class="grid-grid">
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
-        <li tabindex="0">
-            <a href='#' target='_blank' >
+        <li>
+            <a href='#' target='_blank' tabindex="8" >
                 <span class="socicon-facebook"></span>
             </a>
         </li>
-        <li tabindex="0">
-            <a href="../../Shop/Home/Shop.html" accesskey="p" > 
+        <li>
+            <a href="../../Shop/Home/Shop.html" accesskey="p" tabindex="9">
                 <u>P</u>ackages 
             </a>
         </li>
-        <li tabindex="0">
-            <a href='#' target='_blank'>
+        <li>
+            <a href='#' target='_blank' tabindex="10">
                 <span class="socicon-instagram"></span>
             </a>
         </li>
@@ -141,6 +141,6 @@
         </p>
     </div>
 </footer>
-<script src="../../../js/Script.js"></script>
+
 </body>
 </html>

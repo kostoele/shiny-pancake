@@ -7,17 +7,19 @@
     <link href = "../../css/Style.css" rel= "stylesheet" type= "text/css" media="all"/>
     <link href="../../css/StyleAlternativ.css" rel="alternate stylesheet" type="text/css" title="blackandwhite" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="../../js/Script2.js" defer="defer"></script>
+    <script src="../../js/Script.js" defer="defer"></script>
 </head>
 <body onload="displayinfo(); accesskey()">
 
 <!--navagation-->
 <nav class="topnav" id="myTopnav" >
-    <div tabindex="0">  
-        <a href="../Home/index.html" class="active" id="home">Home</a> 
+    <div >
+        <a href="../Home/index.html" class="active" id="home" tabindex="1">Home</a>
     </div>
-    <div class="dropdown" tabindex="0">
+    <div class="dropdown">
         <div class="dropbtn"> 
-            <a href="../Shop/Home/Shop.html" id="Packages"> Packages </a>
+            <a href="../Shop/Home/Shop.html" id="Packages" tabindex="2"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
@@ -27,9 +29,9 @@
             <a href="../Shop/Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown" tabindex="0">
+    <div class="dropdown" >
         <div class="dropbtn"> 
-            <a href="../About%20the%20region/Description/Description.html" > About the region </a>
+            <a href="../About%20the%20region/Description/Description.html" tabindex="3" > About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
@@ -39,20 +41,17 @@
             <a href="../About%20the%20region/wallpaper/wallpaper.html" id="wallpaper">Wallpaper</a>
         </div>
     </div>
-    <div tabindex="0"> 
-        <a href="../AboutUs/AboutUs.html" id="About">About us</a>
-    </div>
-    <div tabindex="0"> 
-        <a href="Contact.html" id="Contact">Contact us</a> 
-    </div>
+
+        <a href="../AboutUs/AboutUs.html" id="About" tabindex="4">About us</a>
+        <a href="Contact.html" id="Contact" tabindex="5">Contact us</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 </nav>
 
 <!-- Section A -->
 <header>
     <ul class="breadcrumb">
-        <li tabindex="0">
-            <a href="../Home/index.html">Home</a>
+        <li >
+            <a href="../Home/index.html" tabindex="6">Home</a>
         </li>
         <li>Contact us</li>
     </ul>
@@ -60,12 +59,12 @@
     <div class="container">
         <form action="#">
             <label for="fname" >First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name.." tabindex="0">
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." tabindex="7">
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name.." tabindex="0">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." tabindex="8">
             <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" tabindex="0"></textarea>
-            <input type="submit" value="Submit" tabindex="0">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" tabindex="9"></textarea>
+            <input type="submit" value="Submit" tabindex="10">
         </form>
     </div>
 </header>
@@ -80,7 +79,7 @@
 </main>
 <!-- Section C -->
 <div id="main">
-    <section id="section-d" class="grid" tabindex="0">
+    <section id="section-d" class="grid">
         <div class="box" vocab="http://schema.org/">
             <h2 class="content-title">Contact Us</h2>
             <p typeof="Organization">
@@ -109,16 +108,16 @@
 <footer id="main-footer" class="grid-grid">
     <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
     <ul class="socicons-list">
-        <li tabindex="0">
-            <a href='#' target='_blank' >
+        <li >
+            <a href='#' target='_blank' tabindex="11">
                 <span class="socicon-facebook"></span>
             </a>
         </li>
-        <li tabindex="0">
-            <a href="../Shop/Home/Shop.html" accesskey="p" > <u>P</u>ackages </a>
+        <li >
+            <a href="../Shop/Home/Shop.html" accesskey="p" tabindex="12"> <u>P</u>ackages </a>
         </li>
-        <li tabindex="0">
-            <a href='#' target='_blank'>
+        <li >
+            <a href='#' target='_blank' tabindex="13">
                 <span class="socicon-instagram"></span>
             </a>
         </li>
@@ -143,7 +142,5 @@
         </p>
     </div>
 </footer>
-<script src="../../js/Script2.js"></script>
-<script src="../../js/Script.js"></script>
 </body>
 </html>
