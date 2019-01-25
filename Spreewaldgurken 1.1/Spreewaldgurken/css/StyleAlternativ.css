@@ -41,7 +41,7 @@ Navigation bar
 
 
 .active {
-    background-color: #2E8B57;
+    background-color: #ffffff;
     color: black;
 }
 
@@ -830,4 +830,8 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     color: black;
     text-decoration: underline;
+}
+
+#wikiid{
+    text-decoration: none;
 }

@@ -830,3 +830,7 @@ ul.breadcrumb li a:hover {
     color: black;
     text-decoration: underline;
 }
+
+#wikiid{
+    text-decoration: none;
+}
