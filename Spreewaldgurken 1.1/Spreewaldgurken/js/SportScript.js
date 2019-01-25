@@ -13,17 +13,17 @@ xmlhttp.open("GET","catalog.xml",false);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML;
 
-x=xmlDoc.getElementsByTagName("SPORT");
+x=xmlDoc.getElementsByTagName("Sport");
 i=0;
 
 function displaySport()
 {
-    tITLE=(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
-    ort=(x[i].getElementsByTagName("ORT")[0].childNodes[0].nodeValue);
-    year=(x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue);
-    Preise=(x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue);
-    dAURTION=(x[i].getElementsByTagName("DAURTION")[0].childNodes[0].nodeValue);
-    txt="TITLE: " + tITLE + "<br>ORT: " + ort + "<br>Year: "+ year  + "<br>PRICE: " + Preise + "<br>DAURTION: "+ dAURTION ;
+    title=(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+    location=(x[i].getElementsByTagName("location")[0].childNodes[0].nodeValue);
+    price=(x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue);
+    duration=(x[i].getElementsByTagName("duration")[0].childNodes[0].nodeValue);
+    year=(x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue);
+    txt="Title: " + title + "<br>Location: " + location + "<br>Price: " + price + "<br>Duration: "+ duration + "<br>Year: "+ year;
     document.getElementById("show").innerHTML=txt;
 }
 
@@ -44,4 +44,3 @@ function previous()
         displaySport();
     }
 }
-

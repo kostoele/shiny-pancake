@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CATALOG>
+<catalog>
 
 
-    <Holldays>
+    <holldays>
 
-        <name> just you and i </name>
+        <name> Love Birds </name>
         <duration> 3 days</duration>
         <persons> 2</persons>
         <kids> no</kids>
@@ -14,11 +14,11 @@
         <location> Cottbus</location>
         <price> 150 Euros</price>
 
-    </Holldays>
+    </holldays>
 
-    <Holldays>
+    <holldays>
 
-        <name> just im summer </name>
+        <name> Sunshine </name>
         <duration> 3 days</duration>
         <persons> 2</persons>
         <kids> yes </kids>
@@ -28,12 +28,12 @@
         <location> Cottbus</location>
         <price> 200 Euros</price>
 
-    </Holldays>
+    </holldays>
 
 
-    <Holldays>
+    <holldays>
 
-        <name> just im winter </name>
+        <name> Winter is Coming </name>
         <duration> 3 days</duration>
         <persons> 2</persons>
         <kids> 1 </kids>
@@ -43,11 +43,11 @@
         <location> Cottbus</location>
         <price> 170 Euros</price>
 
-    </Holldays>
+    </holldays>
 
-    <Holldays>
+    <holldays>
 
-        <name> just for the Night </name>
+        <name> One Night Stand </name>
         <duration> 3 days</duration>
         <persons> 2</persons>
         <kids> 1 </kids>
@@ -57,7 +57,7 @@
         <location> Cottbus</location>
         <price> 50 Euros</price>
 
-    </Holldays>
+    </holldays>
 
 
-</CATALOG>
+</catalog>

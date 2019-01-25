@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CATALOG>
+<catalog>
     
     
    <info>
+       <company>SpreeWaldGürcken GmbH</company>
+       <street> Karl-liebkenchtStr 102 </street>
+       <code> 03046 Cottbus </code>
        <country> Deutschland Brandenburg </country>
-       <uri> tel:+491-111-555-1212 </uri>
-    <code> 03046 Cottbus </code>
-    <street> Karl-liebkenchtStr 102 </street>
-    <email>info@spreewahldgurcken.com </email>
-    <COMPANY>SpreeWaldGürcken GmbH</COMPANY>
+       <tele> tel:+491-111-555-1212 </uri>
+       <email>info@spreewahldgurcken.com </email>  
     </info>
         
 	
-</CATALOG>
+</catalog>

@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CATALOG>
+<catalog>
 
 
-    <Daytrip>
+    <daytrip>
         <day> Monday  </day>
         <time> 12:00-16:00 </time>
         <location> Cottbus </location>
         <price> 20 Euro</price>
         <activities> boat ride and cycling </activities>
-    </Daytrip>
+    </daytrip>
 
-    <Daytrip>
+    <daytrip>
         <day> Tuesday  </day>
         <time> 12:00-16:00 </time>
         <location> Lubbenau </location>
         <price> 12 Euro</price>
         <activities> cycling </activities>
 
-    </Daytrip>
+    </daytrip>
 
 
-    <Daytrip>
+    <daytrip>
         <day> Monday  </day>
         <time> 12:00-16:00 </time>
         <location> Lubbenau </location>
         <price> 12 Euro</price>
         <activities> boat ride  </activities>
 
-    </Daytrip>
+    </daytrip>
 
-    <Daytrip>
+    <daytrip>
         <day> Monday  </day>
         <time> 12:00-16:00 </time>
         <location> Lubbenau </location>
         <price> 16 Euro</price>
         <activities> boat ride and cycling </activities>
 
-    </Daytrip>
+    </daytrip>
 
-    <Daytrip>
+    <daytrip>
         <day> Monday  </day>
         <time> 12:00-16:00 </time>
         <location> Lubben </location>
         <price> 12 Euro</price>
         <activities> boat ride and cycling </activities>
 
-    </Daytrip>
+    </daytrip>
 
 
-    <Daytrip>
+    <daytrip>
         <day> Monday  </day>
         <time> 12:00-16:00 </time>
         <location> Lubben </location>
         <price> 12 Euro</price>
         <activities>  cycling </activities>
 
-    </Daytrip>
+    </daytrip>
 
-</CATALOG>
+</catalog>

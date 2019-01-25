@@ -30,7 +30,7 @@ function myFunction(xml) {
     var i;
     var xmlDoc = xml.responseXML;
     var table="<tr><th>Day</th><th>Time</th><th>Location</th><th>Price</th><th>Activities</th></tr>";
-    var x = xmlDoc.getElementsByTagName("Daytrip");
+    var x = xmlDoc.getElementsByTagName("daytrip");
     for (i = 0; i <x.length; i++) {
         table += "<tr><td>" +
             x[i].getElementsByTagName("day")[0].childNodes[0].nodeValue +
@@ -67,7 +67,7 @@ function myFunctionHoliday(xml) {
     var i;
     var xmlDoc = xml.responseXML;
     var table="<tr><th>Name</th><th>Duration</th><th>Persons</th><th>Kids</th><th>Hotel Type</th><th>Number of Nights</th><th>Accessories</th><th>Location</th><th>Price</th></tr>";
-    var x = xmlDoc.getElementsByTagName("Holldays");
+    var x = xmlDoc.getElementsByTagName("holldays");
     for (i = 0; i <x.length; i++) {
         table += "<tr><td>" +
             x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +

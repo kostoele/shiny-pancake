@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #333;
-    color: #fff;
+    background: #2E8B57;
+    color: black;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
@@ -14,7 +14,7 @@ Navigation bar
 
 .topnav {
     overflow: hidden;
-    background-color: #273625;
+    background-color: #2E8B57;
 }
 
 
@@ -22,7 +22,7 @@ Navigation bar
 
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #2E8B57;
     margin: 6px 0;
     background-position: center;
 
@@ -31,7 +31,7 @@ Navigation bar
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -41,8 +41,8 @@ Navigation bar
 
 
 .active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2E8B57;
+    color: black;
 }
 
 .topnav .icon {
@@ -59,9 +59,9 @@ Navigation bar
     font-size: 17px;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 14px 16px;
-    background-color: inherit;
+    background-color: #2E8B57;
     font-family: inherit;
     margin-top: 3px;
 }
@@ -73,7 +73,7 @@ Navigation bar
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #2E8B57;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -89,12 +89,12 @@ Navigation bar
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
+    background-color: #2E8B57;
+    color: black;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #2E8B57;
     color: black;
 }
 
@@ -163,8 +163,8 @@ p {
 
 .btn {
     display: inline-block;
-    background: #333;
-    color: #fff;
+    background: #2E8B57;
+    color: black;
     text-decoration: none;
     padding: 1em 2em;
     border: 1px solid #666;
@@ -172,15 +172,15 @@ p {
 }
 
 .btn:hover {
-    background: #eaeaea;
-    color: #333;
+    background: #2E8B57;
+    color: black;
 }
 
 /* Header Showcase */
 
 #showcase {
     min-height: 450px;
-    color: #fff;
+    color: black;
     text-align: center;
 }
 
@@ -194,7 +194,7 @@ p {
 
 #showcase .bg-image {
     position: absolute;
-    background: #333
+    background: grey
     url("../img/Imges/Gurken.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ p {
     width: 100%;
     height: 450px;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.1;
 }
 
 #showcase h1 {
@@ -218,8 +218,8 @@ p {
 /* Section A */
 
 #section-a {
-    background: #eaeaea;
-    color: #333;
+    background: #2E8B57;
+    color: black;
     padding-bottom: 2em;
 }
 
@@ -237,8 +237,8 @@ p {
 
 #section-b li {
     margin-bottom: 1em;
-    background: #fff;
-    color: #333;
+    background: #2E8B57;
+    color: black;
 }
 
 .card-content {
@@ -248,8 +248,8 @@ p {
 /* Section C */
 
 #section-c {
-    background: #fff;
-    color: #333;
+    background: #2E8B57;
+    color: black;
     padding: 2em;
 }
 
@@ -257,18 +257,19 @@ p {
 
 #section-d .box {
     padding: 2em;
-    color: #fff;
+    color: black;
 }
 
 #section-d .box:first-child {
-    background: #9b7e4b;
+    background: #2E8B57;
 }
 #section-d .box {
-    background: #3a5227;
+    background: #2E8B57;
 }
 /* Footer */
+/* Footer */
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: #2E8B57;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -277,7 +278,7 @@ p {
 }
 
 .footer-distributed .footer-left p{
-	color:  #8f9296;
+	color:  black;
 	font-size: 14px;
 	margin: 0;
 }
@@ -287,7 +288,7 @@ p {
 .footer-distributed p.footer-links{
 	font-size:18px;
 	font-weight: bold;
-	color:  #ffffff;
+	color:  black;
 	margin: 0 0 10px;
 	padding: 0;
 }
@@ -296,7 +297,7 @@ p {
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
-	color:  inherit;
+	color:  black;
 }
 
 .footer-distributed .footer-right{
@@ -309,18 +310,18 @@ p {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	background-color:  #33383b;
+	background-color:  #2E8B57;
 	border-radius: 2px;
 
 	font-size: 20px;
-	color: #ffffff;
+	color: black;
 	text-align: center;
 	line-height: 35px;
 
 	margin-left: 3px;
 }
 .cc{
-    color: white;
+    color: black;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -341,7 +342,6 @@ p {
 		line-height: 1.8;
 	}
 }
-
 /* Media Queries */
 
 @media (min-width: 700px) {
@@ -408,8 +408,8 @@ input[type=text],  textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2E8B57;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -417,12 +417,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #2E8B57;
 }
 
 .container {
     border-radius: 5px;
-    background-color: #333333;
+    background-color: #2E8B57;
     padding: 20px;
 }
 
@@ -585,8 +585,8 @@ input[type=submit]:hover {
 
 /************************        Section-c        ****************/
 #section-c {
-    background: #fff;
-    color: #333;
+    background: #2E8B57;
+    color: black;
     padding: 2em;
 }
 
@@ -615,11 +615,11 @@ input[type=submit]:hover {
     padding: 10px;
 }
 .Wrapper1 > div{
-    background-color: rgba(191, 112, 47, 0.9);
+    background-color: #2E8B57;
     padding: 1em;
 }
 .Wrapper1 > div:nth-child(odd){
-    background-color: #ddd;
+    background-color: #2E8B57;
 }
 .Wrapper1 {
     display: grid;
@@ -663,7 +663,7 @@ th,td {
 
 #Triptable{
     text-align: center;
-    background-color: white;
+    background-color: #2E8B57;
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
@@ -678,7 +678,7 @@ th,td {
     text-align: center;
     font-size: 2.1em;
 
-    background-color: #bf702f;
+    background-color: #2E8B57;
     border: 3px solid #ddd;
 }
 
@@ -701,7 +701,7 @@ tr:nth-child(even){background-color: darkseagreen}
 
 #showcase3 .bg-image {
     position: absolute;
-    background: #333 url("../img/offer/3.jpeg") no-repeat center;
+    background: #2E8B57 url("../img/offer/bauernhof-blauem-hintergrund-danksagung-1328892.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 450px;
@@ -710,12 +710,12 @@ tr:nth-child(even){background-color: darkseagreen}
 }
 #showcase2 .bg-image {
     position: absolute;
-    background: #333 url("../img/offer/2.jpeg") no-repeat center;
+    background: #2E8B57 url("../img/offer/appetizer-cremig-essen-1277483.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 450px;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 
@@ -725,11 +725,11 @@ tr:nth-child(even){background-color: darkseagreen}
     padding: 10px;
 }
 .Wrapper1 > div{
-    background-color: rgba(191, 112, 47, 0.9);
+    background-color: #2E8B57;
     padding: 1em;
 }
 .Wrapper1 > div:nth-child(odd){
-    background-color: #dd610a;
+    background-color: #2E8B57;
 }
 .Wrapper1 {
     display: grid;
@@ -759,8 +759,8 @@ tr:nth-child(even){background-color: darkseagreen}
 
 .boxe4:hover, .boxe3:hover, .boxe2:hover ,.boxe1:hover{
     opacity: 0.3;
-    background: #dd4b39;
-    color: white;
+    background: #2E8B57;
+    color: black;
 }
 
 .boxe1, .boxe2, .boxe3 , .boxe4 {
@@ -787,21 +787,21 @@ tr:nth-child(even){background-color: darkseagreen}
     padding: 20px;
     font-size: 20px;
     border-radius: 50%;
-    color: #fff;
-    background-color: #f1f1f1;
+    color: black;
+    background-color: #2E8B57;
     transition: all ease-in-out 150ms;
 }
 .socicons-list li a:hover {
     text-shadow: 0 5px 10px #212121;
 }
 .socicons-list li:nth-child(1) a {
-    background-color: #3e5b98;
+    background-color: #2E8B57;
 }
 .socicons-list li:nth-child(2) a {
-    background-color: #212121;
+    background-color: #2E8B57;
 }
 .socicons-list li:nth-child(3) a {
-    background-color: #4da7de;
+    background-color: #2E8B57;
 }
 
 
@@ -811,7 +811,7 @@ tr:nth-child(even){background-color: darkseagreen}
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    background-color: #333333;
+    background-color: #2E8B57;
 }
 ul.breadcrumb li {
     display: inline;
@@ -823,10 +823,10 @@ ul.breadcrumb li+li:before {
     content: "/\00a0";
 }
 ul.breadcrumb li a {
-    color: #0275d8;
+    color: black;
     text-decoration: none;
 }
 ul.breadcrumb li a:hover {
-    color: #01447e;
+    color: black;
     text-decoration: underline;
 }
