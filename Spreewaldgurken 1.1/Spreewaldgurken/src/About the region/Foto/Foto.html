@@ -23,12 +23,12 @@
 
 <!--navagation-->
 <nav class="topnav" id="myTopnav">
-    <div tabindex="0">  
-        <a href="../../Home/index.html" class="active" id="home">Home</a> 
+    <div>
+        <a href="../../Home/index.html" class="active" id="home" tabindex="1">Home</a>
     </div>
-     <div class="dropdown" tabindex="0">
+     <div class="dropdown">
         <div class="dropbtn"> 
-            <a href="../../Shop/Home/Shop.html" id="Packages"> Packages </a>
+            <a href="../../Shop/Home/Shop.html" id="Packages" tabindex="2"> Packages </a>
             <i class="fa fa-caret-down"></i>
         </div>
         <div class="dropdown-content">
@@ -38,24 +38,23 @@
             <a href="../../Shop/Sport/Sport.html" id="Sport">Sport</a>
         </div>
     </div>
-    <div class="dropdown" tabindex="0">
+    <div class="dropdown">
         <div class="dropbtn"> 
-            <a href="../Description/Description.html"> About the region </a>
+            <a href="../Description/Description.html" tabindex="3"> About the region </a>
             <i class="fa fa-caret-down"></i>
         </div>
-        <div class="dropdown-content" tabindex="0">
+        <div class="dropdown-content">
             <a href="../Description/Description.html" id="Description">Description </a>
             <a href=../Foto/Foto.html id="fotos">Photos</a>
             <a href="../Video/video.html" id="video">Video</a>
             <a href="../wallpaper/wallpaper.html" id="wallpaper">Wallpaper</a>
         </div>
     </div>
-    <div tabindex="0"> 
-        <a href="../../AboutUs/AboutUs.html" id="About">About us</a> 
-    </div>
-    <div tabindex="0">  
-        <a href="../../Contact%20Us/Contact.html" id="Contact">Contact us</a> 
-    </div>
+
+        <a href="../../AboutUs/AboutUs.html" id="About" tabindex="4">About us</a>
+
+        <a href="../../Contact%20Us/Contact.html" id="Contact" tabindex="5">Contact us</a>
+
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionnav()">&#9776;</a>
 </nav>
 
@@ -63,8 +62,8 @@
 
 <header>
     <ul class="breadcrumb">
-        <li tabindex="0">
-            <a href="../../Home/index.html">Home</a>
+        <li>
+            <a href="../../Home/index.html" tabindex="-1">Home</a>
         </li>
         <li>Photos</li>
     </ul>
@@ -126,18 +125,18 @@
     
     <div class="footer-right">
 
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#" tabindex="7"><i class="fa fa-facebook"></i></a>
+        <a href="#" tabindex="8"><i class="fa fa-twitter"></i></a>
+        <a href="#" tabindex="9"><i class="fa fa-linkedin"></i></a>
+        <a href="#" tabindex="10"><i class="fa fa-github"></i></a>
     </div>
 
     <div class="footer-left">
         <p class="footer-links">
             ·
-            <a href="../../Home/index.html">Home</a>
+            <a href="../../Home/index.html" tabindex="-1">Home</a>
             ·
-            <a href="../../Shop/Special%20offers/SpecialOffers.html">Special Offers</a>
+            <a href="../../Shop/Special%20offers/SpecialOffers.html" tabindex="-1">Special Offers</a>
         </p>
         <p  vocab="http://creativecommons.org/ns#">
 	       All content on this blog item is licensed under

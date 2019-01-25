@@ -75,7 +75,7 @@ Navigation bar
     position: absolute;
     background-color: #2E8B57;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -399,7 +399,7 @@ p {
 input[type=text],  textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -667,7 +667,7 @@ th,td {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     overflow-y: auto;
     margin: 0 0 1em;
 }
@@ -679,7 +679,7 @@ th,td {
     font-size: 2.1em;
 
     background-color: #2E8B57;
-    border: 3px solid #ddd;
+    border: 3px solid #000000;
 }
 
 
@@ -688,7 +688,7 @@ th,td {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     overflow-y: auto;
     margin: 0 0 1em;
 }
@@ -828,4 +828,8 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     color: black;
     text-decoration: underline;
+}
+
+#wikiid{
+    color: black;
 }
