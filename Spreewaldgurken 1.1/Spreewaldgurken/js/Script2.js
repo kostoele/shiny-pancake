@@ -22,12 +22,12 @@ i=0;
 
 function displayinfo()
 {
-    country=(x[i].getElementsByTagName("company")[0].childNodes[0].nodeValue);
-    code=(x[i].getElementsByTagName("street")[0].childNodes[0].nodeValue);
-    street=(x[i].getElementsByTagName("code")[0].childNodes[0].nodeValue);
-    COMPANY=(x[i].getElementsByTagName("country")[0].childNodes[0].nodeValue);
-    email=(x[i].getElementsByTagName("tele")[0].childNodes[0].nodeValue);
-    nummer=(x[i].getElementsByTagName("email")[0].childNodes[0].nodeValue);
+    company=(x[i].getElementsByTagName("company")[0].childNodes[0].nodeValue);
+    street=(x[i].getElementsByTagName("street")[0].childNodes[0].nodeValue);
+    code=(x[i].getElementsByTagName("code")[0].childNodes[0].nodeValue);
+    country=(x[i].getElementsByTagName("country")[0].childNodes[0].nodeValue);
+    tele=(x[i].getElementsByTagName("tele")[0].childNodes[0].nodeValue);
+    email=(x[i].getElementsByTagName("email")[0].childNodes[0].nodeValue);
     txt="Company: " + company + "<br>Street Address: " + street + "<br>Postcode: "+ code  + "<br>Country: " + country + "<br>Telephone: "+ tele + "<br>Email: "+ email ;
     document.getElementById("show").innerHTML=txt;
 }

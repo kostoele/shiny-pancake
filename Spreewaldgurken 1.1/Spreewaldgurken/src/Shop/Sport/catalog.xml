@@ -1,61 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog>
-
-	<sport>
-		<title> Football </title>
-		<location> Cottbus </location>
+    <sports>
+		<title_> Football </title_>
+		<loc> Cottbus </loc>
 		<price> 20 Euro </price>
 		<duration> 2 Hours</duration>
 		<year>01.01.2019 to 01.06.2019</year>
-	</sport>
-	<sport>
-		<title> Paddling </title>
-		<location> Spreewahld </location>
+	</sports>
+	<sports>
+		<title_> Paddling </title_>
+		<loc> Spreewahld </loc>
 		<price> 30 Euro</price>
 		<duration> 2 Hours</duration>
 		<year>01.01.2019 to 01.06.2019</year>
-	</sport>
-	<sport>
-		<title> Jogging </title>
-		<location> Läbnau </location>
+	</sports>
+	<sports>
+		<title_> Jogging </title_>
+		<loc> Läbnau </loc>
 		<price> 30 </price>
 		<duration> 2 hours</duration>
 		<year>01.01.2019 to 01.06.2019</year>
-	</sport>
-	<sport>
-		<title> Yoga </title>
-		<location> Bürg</location>
+	</sports>
+	<sports>
+		<title_> Yoga </title_>
+		<loc> Bürg</loc>
 		<price> 20</price>
 		<duration> 4 Hours</duration>
 		<year>01.01.2019 to 01.06.2019</year>
-	</sport>
-	<sport>
-		<title> Swimming</title>
-		<location> Cottbus </location>
+	</sports>
+	<sports>
+		<title_> Swimming</title_>
+		<loc> Cottbus </loc>
 		<price> 20 Euro </price>
 		<duration> 4 Hours</duration>
 		<year>01.01.2019 to 01.06.2019</year>
-	</sport>
-	<sport>
-		<title> Swimming2</title>
-		<location> Cottbus </location>
+	</sports>
+	<sports>
+		<title_> Swimming2</title_>
+		<loc> Cottbus </loc>
 		<price> 20 Euro </price>
 		<duration> 4 Hours</duration>
 		<year>01.01.2019 to 01.06.2019</year>
-	</sport>
-	<sport>
-		<title> Swimming3</title>
-		<location> Cottbus </location>
+	</sports>
+	<sports>
+		<title_> Swimming3</title_>
+		<loc> Cottbus </loc>
 		<price> 20 Euro </price>
 		<duration> 4 Hours</duration>
 		<year>01.01.2019 to 01.06.2019</year>
-	</sport>
-	<sport>
-		<title> Swimming4</title>
-		<location> Cottbus </location>
+	</sports>
+	<sports>
+		<title_> Swimming4</title_>
+		<loc> Cottbus </loc>
 		<price> 20 Euro </price>
 		<duration> 4 Hours</duration>
 		<year>01.01.2019 to 01.06.2019</year>
-	</sport>
+	</sports>
 
 </catalog>
