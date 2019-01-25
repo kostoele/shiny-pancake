@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #ffffff;
-    color: #000000;
+    color: black;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
@@ -22,7 +22,7 @@ Navigation bar
 
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #ffffff;
     margin: 6px 0;
     background-position: center;
 
@@ -31,7 +31,7 @@ Navigation bar
 .topnav a {
     float: left;
     display: block;
-    color: #000000;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -41,8 +41,8 @@ Navigation bar
 
 
 .active {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #2E8B57;
+    color: black;
 }
 
 .topnav .icon {
@@ -59,9 +59,9 @@ Navigation bar
     font-size: 17px;
     border: none;
     outline: none;
-    color: #000000;
+    color: black;
     padding: 14px 16px;
-    background-color: inherit;
+    background-color: #ffffff;
     font-family: inherit;
     margin-top: 3px;
 }
@@ -75,13 +75,13 @@ Navigation bar
     position: absolute;
     background-color: #ffffff;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
     float: none;
-    color: #000000;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -90,7 +90,7 @@ Navigation bar
 
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #ffffff;
-    color: #000000;
+    color: black;
 }
 
 .dropdown-content a:hover {
@@ -164,23 +164,23 @@ p {
 .btn {
     display: inline-block;
     background: #ffffff;
-    color: #000000;
+    color: black;
     text-decoration: none;
     padding: 1em 2em;
-    border: 1px solid #000000;
+    border: 1px solid #666;
     margin: 0.5em 0;
 }
 
 .btn:hover {
     background: #ffffff;
-    color: #000000;
+    color: black;
 }
 
 /* Header Showcase */
 
 #showcase {
     min-height: 450px;
-    color: #000000;
+    color: black;
     text-align: center;
 }
 
@@ -194,7 +194,7 @@ p {
 
 #showcase .bg-image {
     position: absolute;
-    background: #ffffff
+    background: grey
     url("../img/Imges/Gurken.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ p {
 
 #section-a {
     background: #ffffff;
-    color: #000000;
+    color: black;
     padding-bottom: 2em;
 }
 
@@ -238,7 +238,7 @@ p {
 #section-b li {
     margin-bottom: 1em;
     background: #ffffff;
-    color: #000000;
+    color: black;
 }
 
 .card-content {
@@ -249,7 +249,7 @@ p {
 
 #section-c {
     background: #ffffff;
-    color: #000000;
+    color: black;
     padding: 2em;
 }
 
@@ -257,7 +257,7 @@ p {
 
 #section-d .box {
     padding: 2em;
-    color: #000000;
+    color: black;
 }
 
 #section-d .box:first-child {
@@ -267,19 +267,81 @@ p {
     background: #ffffff;
 }
 /* Footer */
-
-#main-footer {
-    padding: 2em;
-    background: #ffffff;
-    color: #000000;
-    text-align: center;
+/* Footer */
+.footer-distributed{
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
 }
 
-#main-footer a {
-    color: #000000;
+.footer-distributed .footer-left p{
+    color:  black;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  black;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
     text-decoration: none;
+    color:  black;
 }
 
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+.cc{
+    color: black;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
+    }
+}
 /* Media Queries */
 
 @media (min-width: 700px) {
@@ -292,9 +354,9 @@ p {
         columns: 1;
     }
 
-     #section-a .content-text p {
-         padding-top: 0;
-     }
+    #section-a .content-text p {
+        padding-top: 0;
+    }
 
     .content-wrap,
     #section-b ul {
@@ -337,7 +399,7 @@ p {
 input[type=text],  textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #000000;
+    border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -347,7 +409,7 @@ input[type=text],  textarea {
 
 input[type=submit] {
     background-color: #ffffff;
-    color: #000000;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -524,7 +586,7 @@ input[type=submit]:hover {
 /************************        Section-c        ****************/
 #section-c {
     background: #ffffff;
-    color: #000000;
+    color: black;
     padding: 2em;
 }
 
@@ -553,7 +615,7 @@ input[type=submit]:hover {
     padding: 10px;
 }
 .Wrapper1 > div{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #ffffff;
     padding: 1em;
 }
 .Wrapper1 > div:nth-child(odd){
@@ -592,7 +654,7 @@ table,th,td {
 }
 th,td {
     padding: 5px;
-    color: #000000;
+    color: black;
 }
 
 
@@ -605,7 +667,7 @@ th,td {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #000000;
+    border: 1px solid #ddd;
     overflow-y: auto;
     margin: 0 0 1em;
 }
@@ -617,7 +679,7 @@ th,td {
     font-size: 2.1em;
 
     background-color: #ffffff;
-    border: 3px solid #000000;
+    border: 3px solid #ddd;
 }
 
 
@@ -626,7 +688,7 @@ th,td {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     overflow-y: auto;
     margin: 0 0 1em;
 }
@@ -640,7 +702,7 @@ tr:nth-child(even){background-color: #ffffff
 
 #showcase3 .bg-image {
     position: absolute;
-    background: #333 url("../img/offer/bauernhof-blauem-hintergrund-danksagung-1328892.jpg") no-repeat center;
+    background: #ffffff url("../img/offer/bauernhof-blauem-hintergrund-danksagung-1328892.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 450px;
@@ -664,7 +726,7 @@ tr:nth-child(even){background-color: #ffffff
     padding: 10px;
 }
 .Wrapper1 > div{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #ffffff;
     padding: 1em;
 }
 .Wrapper1 > div:nth-child(odd){
@@ -697,9 +759,9 @@ tr:nth-child(even){background-color: #ffffff
 
 
 .boxe4:hover, .boxe3:hover, .boxe2:hover ,.boxe1:hover{
-    opacity: 0.7;
-    background: #c6c6c6;
-    color: #000000;
+    opacity: 0.3;
+    background: #ffffff;
+    color: black;
 }
 
 .boxe1, .boxe2, .boxe3 , .boxe4 {
@@ -726,12 +788,12 @@ tr:nth-child(even){background-color: #ffffff
     padding: 20px;
     font-size: 20px;
     border-radius: 50%;
-    color: #000000;
+    color: black;
     background-color: #ffffff;
     transition: all ease-in-out 150ms;
 }
 .socicons-list li a:hover {
-    text-shadow: 0 5px 10px #ffffff;
+    text-shadow: 0 5px 10px #212121;
 }
 .socicons-list li:nth-child(1) a {
     background-color: #ffffff;
@@ -762,10 +824,10 @@ ul.breadcrumb li+li:before {
     content: "/\00a0";
 }
 ul.breadcrumb li a {
-    color: #000000;
+    color: black;
     text-decoration: none;
 }
 ul.breadcrumb li a:hover {
-    color: #000000;
+    color: black;
     text-decoration: underline;
 }
