@@ -699,25 +699,24 @@ th,td {
 tr:nth-child(even){background-color: darkseagreen}
 
 
-#showcase3 .bg-image {
+#showcase3 .bg-image3 {
     position: absolute;
-    background: #2E8B57 url("../img/offer/bauernhof-blauem-hintergrund-danksagung-1328892.jpg") no-repeat center;
+    background: #2E8B57 url("../img/offer/111.png") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 450px;
     z-index: -1;
     opacity: 0.4;
 }
-#showcase2 .bg-image {
+#showcase2 .bg-image2 {
     position: absolute;
-    background: #2E8B57 url("../img/offer/appetizer-cremig-essen-1277483.jpg") no-repeat center;
+    background: #2E8B57 url("../img/offer/222.png") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 450px;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.4;
 }
-
 
 
 
