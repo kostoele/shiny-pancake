@@ -702,11 +702,7 @@ tr:nth-child(even){background-color: #ffffff
 
 #showcase3 .bg-image3 {
     position: absolute;
-<<<<<<< HEAD
-    background: #ffffff url("../img/offer/111.png") no-repeat center;
-=======
-    background: #ffffff url("../img/offer/bauernhof-blauem-hintergrund-danksagung-1328892.jpg") no-repeat center;
->>>>>>> ac1fcda1c1445314719f768ac7f02feedcae6397
+    background: #ffffff url("../img/Images/2222.png") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 450px;
@@ -715,7 +711,7 @@ tr:nth-child(even){background-color: #ffffff
 }
 #showcase2 .bg-image2 {
     position: absolute;
-    background: #ffffff url("../img/offer/222.png") no-repeat center;
+    background: #ffffff url("../img/Images/1111.png") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 450px;
