@@ -20,10 +20,10 @@ Navigation bar
 
 .menu-icon{
 
-    width: 35px;
-    height: 5px;
+    width: 1.75em;
+    height: 0.25em;
     background-color: black;
-    margin: 6px 0;
+    margin: 0.3em 0;
     background-position: center;
 
 }
@@ -33,9 +33,9 @@ Navigation bar
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.7em 0.8em;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
 
 }
 
@@ -56,14 +56,14 @@ Navigation bar
 
 
 .dropdown .dropbtn {
-    font-size: 17px;
+    font-size: 1em;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 0.7em 0.8em;
     background-color: inherit;
     font-family: inherit;
-    margin-top: 3px;
+    margin-top: 0.15em;
 }
 
 
@@ -74,15 +74,15 @@ Navigation bar
     display: none;
     position: absolute;
     background-color: #336E6A;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 2em;
+    box-shadow: 0em 0.4em 0.8em 0em rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 0.6em 0.8em;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -167,7 +167,7 @@ p {
     color: #fff;
     text-decoration: none;
     padding: 1em 2em;
-    border: 1px solid #666;
+    border: 0.05em solid #666;
     margin: 0.5em 0;
 }
 
@@ -179,14 +179,14 @@ p {
 /* Header Showcase */
 
 #showcase {
-    min-height: 450px;
+    min-height: 21.5em;
     color: #fff;
     text-align: center;
 }
 
 #logo{
-    width: 120px;
-    height: 100px;
+    width: 6em;
+    height: 5em;
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -200,13 +200,13 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 22.5em;
     z-index: -1;
     opacity: 0.4;
 }
 
 #showcase h1 {
-    padding-top: 100px;
+    padding-top: 3em;
     padding-bottom: 0;
 }
 
@@ -269,26 +269,26 @@ p {
 /* Footer */
 .footer-distributed{
 	background-color: #336E6A;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 0.05em 0.05em 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: normal 16px sans-serif;
+	font: normal 0.8em sans-serif;
 }
 
 .footer-distributed .footer-left p{
 	color:  #f2f2f2;
-	font-size: 14px;
+	font-size: 0.7em;
 	margin: 0;
 }
 
 /* Footer links */
 
 .footer-distributed p.footer-links{
-	font-size:18px;
+	font-size:0.9em;
 	font-weight: bold;
 	color:  #ffffff;
-	margin: 0 0 10px;
+	margin: 0 0 0.5em;
 	padding: 0;
 }
 
@@ -301,23 +301,23 @@ p {
 
 .footer-distributed .footer-right{
 	float: right;
-	margin-top: 6px;
-	max-width: 180px;
+	margin-top: 0.3em;
+	max-width: 20em;
 }
 
 .footer-distributed .footer-right a{
 	display: inline-block;
-	width: 35px;
-	height: 35px;
+	width: 1.75em;
+	height: 1.75em;
 	background-color:  #33383b;
-	border-radius: 2px;
+	border-radius: 0.1em;
 
-	font-size: 20px;
+	font-size: 1em;
 	color: #ffffff;
 	text-align: center;
-	line-height: 35px;
+	line-height: 1.75em;
 
-	margin-left: 3px;
+	margin-left: 0.15em;
 }
 .cc{
     color: white;
@@ -356,7 +356,7 @@ p {
 
 	.footer-distributed .footer-right{
 		float: none;
-		margin: 0 auto 20px;
+		margin: 0 auto 1em;
 	}
 
 	.footer-distributed .footer-left p.footer-links{
@@ -408,7 +408,7 @@ p {
 
 
 .dropdown{
-    margin-top: -12px;
+    margin-top: -0.82em;
 }
 
 
@@ -420,21 +420,21 @@ p {
 
 input[type=text],  textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 0.6em;
+    border: 0.05em solid #ccc;
+    border-radius: 0.2em;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 0.3em;
+    margin-bottom: 0.8em;
     resize: vertical;
 }
 
 input[type=submit] {
     background-color: #336E6A;
     color: white;
-    padding: 12px 20px;
+    padding: 0.6em 1em;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.2em;
     cursor: pointer;
 }
 
@@ -443,9 +443,9 @@ input[type=submit]:hover {
 }
 
 .container {
-    border-radius: 5px;
+    border-radius: 0.25em;
     background-color: #333333;
-    padding: 20px;
+    padding: 1em;
 }
 
 
@@ -462,7 +462,7 @@ input[type=submit]:hover {
 
 .header {
     text-align: center;
-    padding: 32px;
+    padding: 1.6em;
 }
 
 .row {
@@ -470,7 +470,7 @@ input[type=submit]:hover {
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 0.2em;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -478,11 +478,11 @@ input[type=submit]:hover {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 0.2em;
 }
 
 .column img {
-    margin-top: 8px;
+    margin-top: 0.4em;
     vertical-align: middle;
 }
 
@@ -510,7 +510,7 @@ input[type=submit]:hover {
 
 .slider{
     overflow: hidden;
-    height: 450px;
+    height: 18.5em;
 }
 
 .slider figure div{
@@ -617,7 +617,7 @@ input[type=submit]:hover {
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 30px;
+    padding-top: 1.5em;
     height: 0;
 }
 .videoWrapper iframe {
@@ -634,7 +634,7 @@ input[type=submit]:hover {
 
 
 .Wrapper1{
-    padding: 10px;
+    padding: 0.5em;
 }
 .Wrapper1 > div{
     background-color: rgba(191, 112, 47, 0.9);
@@ -649,7 +649,7 @@ input[type=submit]:hover {
     grid-template-columns: 1fr 1fr   ;
     grid-gap: 1em;
 
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(5em, auto);
 
 }
 
@@ -663,7 +663,7 @@ input[type=submit]:hover {
         grid-template-columns: 1fr    ;
         grid-gap: 1em;
 
-        grid-auto-rows: minmax(100px, auto);
+        grid-auto-rows: minmax(5em, auto);
 
     }
 
@@ -671,13 +671,14 @@ input[type=submit]:hover {
 }
 
 table,th,td {
-    border : 2px solid black;
+    border : 0.1em solid black;
     border-collapse: collapse;
 }
 th,td {
-    padding: 5px;
+    padding: 0.25em;
     color: black;
 }
+
 
 
 
@@ -689,7 +690,7 @@ th,td {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 0.05em solid #ddd;
     overflow-y: auto;
     margin: 0 0 1em;
 }
@@ -701,7 +702,7 @@ th,td {
     font-size: 2.1em;
 
     background-color: #bf702f;
-    border: 3px solid #ddd;
+    border: 0.15em solid #ddd;
 }
 
 
@@ -710,7 +711,7 @@ th,td {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 0.05em solid #ddd;
     overflow-y: auto;
     margin: 0 0 1em;
 }
@@ -726,7 +727,7 @@ tr:nth-child(even){background-color: darkseagreen}
     background: #333 url("../img/Images/2222.png") no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 22.5em;
     z-index: -1;
     opacity: 0.4;
 }
@@ -735,7 +736,7 @@ tr:nth-child(even){background-color: darkseagreen}
     background: #333 url("../img/Images/1111.png") no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 20em;
     z-index: -1;
     opacity: 0.4;
 }
@@ -744,7 +745,7 @@ tr:nth-child(even){background-color: darkseagreen}
 
 
 .Wrapper1{
-    padding: 10px;
+    padding: 0.5em;
 }
 .Wrapper1 > div{
     background-color: rgba(191, 112, 47, 0.9);
@@ -759,7 +760,7 @@ tr:nth-child(even){background-color: darkseagreen}
     grid-template-columns: 1fr 1fr   ;
     grid-gap: 1em;
 
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(5em, auto);
 
 }
 @media screen and (max-width: 750px){
@@ -769,7 +770,7 @@ tr:nth-child(even){background-color: darkseagreen}
         grid-template-columns: 1fr    ;
         grid-gap: 1em;
 
-        grid-auto-rows: minmax(100px, auto);
+        grid-auto-rows: minmax(5em, auto);
 
 
     }
@@ -802,19 +803,19 @@ tr:nth-child(even){background-color: darkseagreen}
 
 }
 .socicons-list li {
-    margin: 20px 10px;
+    margin: 1em 0.5em;
 }
 .socicons-list li a {
     text-decoration: none;
-    padding: 20px;
-    font-size: 20px;
+    padding: 1em;
+    font-size: 1em;
     border-radius: 50%;
     color: #fff;
     background-color: #f1f1f1;
     transition: all ease-in-out 150ms;
 }
 .socicons-list li a:hover {
-    text-shadow: 0 5px 10px #212121;
+    text-shadow: 0 0.2em 0.5em #212121;
 }
 .socicons-list li:nth-child(1) a {
     background-color: #3e5b98;
@@ -831,16 +832,16 @@ tr:nth-child(even){background-color: darkseagreen}
 /***************** Assigment 2C **************/
 
 ul.breadcrumb {
-    padding: 10px 16px;
+    padding: 0.5em 0.8em;
     list-style: none;
     background-color: #333333;
 }
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 0.9em;
 }
 ul.breadcrumb li+li:before {
-    padding: 8px;
+    padding: 0.4em;
     color: black;
     content: "/\00a0";
 }
