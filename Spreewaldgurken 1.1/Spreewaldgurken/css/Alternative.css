@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #2E8B57;
-    color: black;
+    background: #336E6A;
+    color:white;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
@@ -14,16 +14,16 @@ Navigation bar
 
 .topnav {
     overflow: hidden;
-    background-color: #2E8B57;
+    background-color: #336E6A;
 }
 
 
 .menu-icon{
 
-    width: 35px;
-    height: 5px;
-    background-color: #2E8B57;
-    margin: 6px 0;
+    width: 1.75em;
+    height: 0.25em;
+    background-color: #336E6A;
+    margin: 0.3em 0;
     background-position: center;
 
 }
@@ -31,18 +31,18 @@ Navigation bar
 .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.7em 0.8em;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
 
 }
 
 
 .active {
-    background-color: #2E8B57;
-    color: black;
+    background-color: #336E6A;
+    color: white;
 }
 
 .topnav .icon {
@@ -56,14 +56,14 @@ Navigation bar
 
 
 .dropdown .dropbtn {
-    font-size: 17px;
+    font-size: 1em;
     border: none;
     outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: #2E8B57;
+    color: white;
+    padding: 0.7em 0.8em;
+    background-color: #336E6A;
     font-family: inherit;
-    margin-top: 3px;
+    margin-top: 0.15em;
 }
 
 
@@ -73,29 +73,29 @@ Navigation bar
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #2E8B57;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #336E6A;
+    min-width: 2em;
+    box-shadow: 0em 0.4em 0.8em 0em rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
     float: none;
-    color: black;
-    padding: 12px 16px;
+    color: white;
+    padding: 0.6em 0.8em;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #2E8B57;
-    color: black;
+    background-color: #336E6A;
+    color: white;
 }
 
 .dropdown-content a:hover {
-    background-color: #2E8B57;
-    color: black;
+    background-color: #336E6A;
+    color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -163,30 +163,30 @@ p {
 
 .btn {
     display: inline-block;
-    background: #2E8B57;
-    color: black;
+    background: #336E6A;
+    color: white;
     text-decoration: none;
     padding: 1em 2em;
-    border: 1px solid #666;
+    border: 0.05em solid #666;
     margin: 0.5em 0;
 }
 
 .btn:hover {
-    background: #2E8B57;
-    color: black;
+    background: #336E6A;
+    color: white;
 }
 
 /* Header Showcase */
 
-#showcase {
-    min-height: 450px;
-    color: black;
+#showcase #showcase2 #showcase3{
+    min-height: 21.5em;
+    color: white;
     text-align: center;
 }
 
 #logo{
-    width: 120px;
-    height: 100px;
+    width: 6em;
+    height: 5em;
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -194,32 +194,58 @@ p {
 
 #showcase .bg-image {
     position: absolute;
-    background: grey
+    background: #336E6A
     url("../img/Imges/Gurken.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 22.5em;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0.4;
 }
 
 #showcase h1 {
-    padding-top: 100px;
+    padding-top: 3em;
     padding-bottom: 0;
 }
 
-#showcase .content-wrap,
+#showcase .content-wrap, #showcase2 #showcase3
 #section-a .content-wrap {
     padding: 0 1.5em;
 }
 
+
+#showcase3 .bg-image3 {
+    position: absolute;
+    background: url("../img/Images/2222.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #336E6A;
+    width: 100%;
+    height: 22.5em;
+    z-index: -1;
+    opacity: 0.4;
+}
+#showcase2 .bg-image2 {
+    position: absolute;
+    background: url("../img/Images/1111.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 22.5em;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
 /* Section A */
 
 #section-a {
-    background: #2E8B57;
-    color: black;
+    background: #336E6A;
+    color: white;
     padding-bottom: 2em;
 }
 
@@ -237,8 +263,8 @@ p {
 
 #section-b li {
     margin-bottom: 1em;
-    background: #2E8B57;
-    color: black;
+    background: #336E6A;
+    color: white;
 }
 
 .card-content {
@@ -248,8 +274,8 @@ p {
 /* Section C */
 
 #section-c {
-    background: #2E8B57;
-    color: black;
+    background: #336E6A;
+    color: white;
     padding: 2em;
 }
 
@@ -257,39 +283,38 @@ p {
 
 #section-d .box {
     padding: 2em;
-    color: black;
+    color: white;
 }
 
 #section-d .box:first-child {
-    background: #2E8B57;
+    background: #336E6A;
 }
 #section-d .box {
-    background: #2E8B57;
+    background: #336E6A;
 }
 /* Footer */
-/* Footer */
 .footer-distributed{
-	background-color: #2E8B57;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	background-color: #336E6A;
+	box-shadow: 0 0.05em 0.05em 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: normal 16px sans-serif;
+	font: normal 0.8em sans-serif;
 }
 
 .footer-distributed .footer-left p{
-	color:  black;
-	font-size: 14px;
+	color:  white;
+	font-size: 0.7em;
 	margin: 0;
 }
 
 /* Footer links */
 
 .footer-distributed p.footer-links{
-	font-size:18px;
+	font-size:0.9em;
 	font-weight: bold;
-	color:  black;
-	margin: 0 0 10px;
+	color:  white;
+	margin: 0 0 0.5em;
 	padding: 0;
 }
 
@@ -297,32 +322,54 @@ p {
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
-	color:  black;
+	color:  white;
 }
 
 .footer-distributed .footer-right{
 	float: right;
-	margin-top: 6px;
-	max-width: 180px;
+	margin-top: 0.3em;
+	max-width: 20em;
 }
 
 .footer-distributed .footer-right a{
 	display: inline-block;
-	width: 35px;
-	height: 35px;
-	background-color:  #2E8B57;
-	border-radius: 2px;
+	width: 1.75em;
+	height: 1.75em;
+	background-color:  #33383b;
+	border-radius: 0.1em;
 
-	font-size: 20px;
-	color: black;
+	font-size: 1em;
+	color: white;
 	text-align: center;
-	line-height: 35px;
+	line-height: 1.75em;
 
-	margin-left: 3px;
+	margin-left: 0.15em;
 }
 .cc{
-    color: black;
+    color: white;
 }
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+.fa-facebook{
+    color: #3c5a96;
+
+}
+.fa-twitter{
+    color: #59adeb;
+}
+
+.fa-linkedin{
+    color: #127cb3;
+}
+.fa-github{
+    color: #7c0f7b;
+}
+
+
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -335,13 +382,14 @@ p {
 
 	.footer-distributed .footer-right{
 		float: none;
-		margin: 0 auto 20px;
+		margin: 0 auto 1em;
 	}
 
 	.footer-distributed .footer-left p.footer-links{
 		line-height: 1.8;
 	}
 }
+
 /* Media Queries */
 
 @media (min-width: 700px) {
@@ -386,7 +434,7 @@ p {
 
 
 .dropdown{
-    margin-top: -12px;
+    margin-top: -0.82em;
 }
 
 
@@ -398,32 +446,32 @@ p {
 
 input[type=text],  textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #000000;
-    border-radius: 4px;
+    padding: 0.6em;
+    border: 0.05em solid #ccc;
+    border-radius: 0.2em;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 0.3em;
+    margin-bottom: 0.8em;
     resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #2E8B57;
-    color: black;
-    padding: 12px 20px;
+    background-color: #336E6A;
+    color: white;
+    padding: 0.6em 1em;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.2em;
     cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #2E8B57;
+    background-color: #336E6A;
 }
 
 .container {
-    border-radius: 5px;
-    background-color: #2E8B57;
-    padding: 20px;
+    border-radius: 0.25em;
+    background-color: #336E6A;
+    padding: 1em;
 }
 
 
@@ -440,7 +488,7 @@ input[type=submit]:hover {
 
 .header {
     text-align: center;
-    padding: 32px;
+    padding: 1.6em;
 }
 
 .row {
@@ -448,7 +496,7 @@ input[type=submit]:hover {
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 0.2em;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -456,11 +504,11 @@ input[type=submit]:hover {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 0.2em;
 }
 
 .column img {
-    margin-top: 8px;
+    margin-top: 0.4em;
     vertical-align: middle;
 }
 
@@ -488,7 +536,7 @@ input[type=submit]:hover {
 
 .slider{
     overflow: hidden;
-    height: 450px;
+    height: 21.5em;
 }
 
 .slider figure div{
@@ -585,8 +633,8 @@ input[type=submit]:hover {
 
 /************************        Section-c        ****************/
 #section-c {
-    background: #2E8B57;
-    color: black;
+    background: #336E6A;
+    color: white;
     padding: 2em;
 }
 
@@ -595,7 +643,7 @@ input[type=submit]:hover {
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 30px;
+    padding-top: 1.5em;
     height: 0;
 }
 .videoWrapper iframe {
@@ -612,14 +660,14 @@ input[type=submit]:hover {
 
 
 .Wrapper1{
-    padding: 10px;
+    padding: 0.5em;
 }
 .Wrapper1 > div{
-    background-color: #2E8B57;
+    background-color: #336E6A;
     padding: 1em;
 }
 .Wrapper1 > div:nth-child(odd){
-    background-color: #2E8B57;
+    background-color: #336E6A;
 }
 .Wrapper1 {
     display: grid;
@@ -627,7 +675,7 @@ input[type=submit]:hover {
     grid-template-columns: 1fr 1fr   ;
     grid-gap: 1em;
 
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(5em, auto);
 
 }
 
@@ -641,7 +689,7 @@ input[type=submit]:hover {
         grid-template-columns: 1fr    ;
         grid-gap: 1em;
 
-        grid-auto-rows: minmax(100px, auto);
+        grid-auto-rows: minmax(5em, auto);
 
     }
 
@@ -649,13 +697,14 @@ input[type=submit]:hover {
 }
 
 table,th,td {
-    border : 2px solid black;
+    border : 0.1em solid black;
     border-collapse: collapse;
 }
 th,td {
-    padding: 5px;
-    color: black;
+    padding: 0.25em;
+    color: white;
 }
+
 
 
 
@@ -663,11 +712,11 @@ th,td {
 
 #Triptable{
     text-align: center;
-    background-color: #2E8B57;
+    background-color: #336E6A;
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #000000;
+    border: 0.05em solid #ddd;
     overflow-y: auto;
     margin: 0 0 1em;
 }
@@ -678,8 +727,8 @@ th,td {
     text-align: center;
     font-size: 2.1em;
 
-    background-color: #2E8B57;
-    border: 3px solid #000000;
+    background-color: #336E6A;
+    border: 0.15em solid black;
 }
 
 
@@ -688,7 +737,7 @@ th,td {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #000000;
+    border: 0.05em solid black;
     overflow-y: auto;
     margin: 0 0 1em;
 }
@@ -699,36 +748,46 @@ th,td {
 tr:nth-child(even){background-color: darkseagreen}
 
 
+
 #showcase3 .bg-image3 {
     position: absolute;
-    background: #2E8B57 url("../img/Images/2222.png") no-repeat center;
+    background: #336E6A;
+    /*url("../img/Images/2222.png");*/
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 22.5em;
     z-index: -1;
     opacity: 0.4;
+    background-image: url(../img/images/2222.png);
 }
 #showcase2 .bg-image2 {
     position: absolute;
-    background: #2E8B57 url("../img/Images/1111.png") no-repeat center;
+    background: #336E6A;
+    /*url("../img/Images/1111.png");*/
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 22.5em;
     z-index: -1;
     opacity: 0.4;
+    background-image: url(../img/images/1111.png);
 }
 
+ 
 
 
 .Wrapper1{
-    padding: 10px;
+    padding: 0.5em;
 }
 .Wrapper1 > div{
-    background-color: #2E8B57;
+    background-color: #336E6A;
     padding: 1em;
 }
 .Wrapper1 > div:nth-child(odd){
-    background-color: #2E8B57;
+    background-color: #336E6A;
 }
 .Wrapper1 {
     display: grid;
@@ -736,7 +795,7 @@ tr:nth-child(even){background-color: darkseagreen}
     grid-template-columns: 1fr 1fr   ;
     grid-gap: 1em;
 
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(5em, auto);
 
 }
 @media screen and (max-width: 750px){
@@ -746,7 +805,7 @@ tr:nth-child(even){background-color: darkseagreen}
         grid-template-columns: 1fr    ;
         grid-gap: 1em;
 
-        grid-auto-rows: minmax(100px, auto);
+        grid-auto-rows: minmax(5em, auto);
 
 
     }
@@ -758,8 +817,8 @@ tr:nth-child(even){background-color: darkseagreen}
 
 .boxe4:hover, .boxe3:hover, .boxe2:hover ,.boxe1:hover{
     opacity: 0.3;
-    background: #2E8B57;
-    color: black;
+    background: #336E6A;
+    color: white;
 }
 
 .boxe1, .boxe2, .boxe3 , .boxe4 {
@@ -779,28 +838,28 @@ tr:nth-child(even){background-color: darkseagreen}
 
 }
 .socicons-list li {
-    margin: 20px 10px;
+    margin: 1em 0.5em;
 }
 .socicons-list li a {
     text-decoration: none;
-    padding: 20px;
-    font-size: 20px;
+    padding: 1em;
+    font-size: 1em;
     border-radius: 50%;
-    color: black;
-    background-color: #2E8B57;
+    color: white;
+    background-color: #336E6A;
     transition: all ease-in-out 150ms;
 }
 .socicons-list li a:hover {
-    text-shadow: 0 5px 10px #212121;
+    text-shadow: 0 0.2em 0.5em #336E6A;
 }
 .socicons-list li:nth-child(1) a {
-    background-color: #2E8B57;
+    background-color: #336E6A;
 }
 .socicons-list li:nth-child(2) a {
-    background-color: #2E8B57;
+    background-color: #336E6A;
 }
 .socicons-list li:nth-child(3) a {
-    background-color: #2E8B57;
+    background-color: #336E6A;
 }
 
 
@@ -808,28 +867,27 @@ tr:nth-child(even){background-color: darkseagreen}
 /***************** Assigment 2C **************/
 
 ul.breadcrumb {
-    padding: 10px 16px;
+    padding: 0.5em 0.8em;
     list-style: none;
-    background-color: #2E8B57;
+    background-color: #336E6A;
 }
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 0.9em;
 }
 ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
+    padding: 0.4em;
+    color: white;
     content: "/\00a0";
 }
 ul.breadcrumb li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 ul.breadcrumb li a:hover {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
-
 #wikiid{
-    color: black;
+    color: white;
 }
