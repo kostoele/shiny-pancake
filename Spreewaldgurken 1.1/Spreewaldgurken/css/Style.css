@@ -390,6 +390,11 @@ p {
 	}
 }
 
+.hide-me{
+    display: none; 
+    color: black
+}
+
 /* Media Queries */
 
 @media (min-width: 700px) {
